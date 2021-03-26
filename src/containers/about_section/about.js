@@ -7,6 +7,7 @@ const BlobImg = styled.img `
     left: 15%;
     width: 18%;
     top: 18%;
+    z-index: -1;
 `
 
 const AboutSection = () => {

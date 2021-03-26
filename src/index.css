@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:&display=swap');
 
 :root {
   --primary: #492A2A;
   --primary2: #A01C1C;
   --background: #D7D7D7;
   --box-color: #C4C4C4;
+  --radius: 10px;
+  --shadow: 8px 5px 13px rgb(109, 109, 109);
 }
 
 html {
@@ -23,3 +26,7 @@ body {
   background-color: var(--background);
 }
 
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0px;
+  line-height:0.8;
+}

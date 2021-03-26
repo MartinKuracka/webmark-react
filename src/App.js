@@ -17,7 +17,7 @@ const Section = styled.div `
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: ${props => props.works ? 'stretch' : 'center'};
   width: 100vw;
   height: 100vh;
   margin: 0px;
@@ -35,18 +35,15 @@ function App() {
       <Navbar />
       <Section id='home'>
         <HeaderLines />
-        <HeadSection />
-          Home
+        <HeadSection />          
       </Section>
       <Section>
         <IntroLines />
-        <IntroSection />
-          Info
+        <IntroSection />          
       </Section>
-      <Section id='works'>
+      <Section id='works' works>
         <WorksLines />
         <WorksSection />
-          Works
       </Section>
       <Section id='about'>
         <AboutLines />
