@@ -9,15 +9,6 @@ const Line1 = styled.div `
     border-left: 1px solid #000000;
 `
 
-const Line2 = styled.div `
-    position: absolute;
-    width: calc(1520/1920*100%);
-    height: 0px;
-    left: calc(200/1920*100%);
-    top: calc(165/1080*100%);
-    border-top: 1px solid #000000;
-`
-
 const Line3 = styled.div `
     position: absolute;
     width: 0px;
@@ -40,7 +31,6 @@ const IntroLines = () => {
     return(
         <div>
             <Line1 />
-            <Line2 />
             <Line3 />
             <Line4 />
         </div>

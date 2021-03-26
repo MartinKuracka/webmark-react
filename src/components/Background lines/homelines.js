@@ -16,6 +16,7 @@ const Line2 = styled.div `
     left: calc(200/1920*100%);
     top: calc(885/1080*100%);
     border-top: 1px solid #000000;
+    z-index: -2;
 `
 
 const Line3 = styled.div `
