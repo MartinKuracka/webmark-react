@@ -18,8 +18,8 @@ const Image = styled.img `
     box-shadow: ${props => props.logo ? 'var(--shadow)' : null };
 `
 const Container = styled.div `
-    width: 100%;
-    margin-top: 100px;
+    width: 90%;
+    margin-top: 160px;
 `
 const Span = styled.span `
     font-size: 9rem;
