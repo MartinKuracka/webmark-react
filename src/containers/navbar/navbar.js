@@ -26,7 +26,7 @@ const Li = styled.li `
     padding-top: 50px;
 `
 const Link = styled.a `
-    color: var(--on_primary);
+    color: var(--background);
     text-decoration: none;
     cursor: pointer;
 `

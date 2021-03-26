@@ -1,17 +1,26 @@
 import styled from 'styled-components';
-import LogoIcon from '../../img/logo_SVG.svg';
+import Blob from '../../img/blobs_header.svg';
 
-const Logo = styled.img `
+const Image = styled.img `
     position: absolute;
-    left: 12%;
-    top: 20px;
+    margin: 100px auto;
+    width: 80%;
+`
+
+const Wrapper = styled.div `
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 20px auto;
+    width: 70%;
+    height: 100%;
 `
 
 const HeadSection = () => {
     return(
-        <div>
-            <Logo src={LogoIcon}/>
-        </div>
+        <Wrapper>
+            <Image src={Blob}/>
+        </Wrapper>
     )
 }
 

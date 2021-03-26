@@ -5,7 +5,7 @@ const Line1 = styled.div `
     width: 0px;
     height: calc(349/1080*100%);
     left: calc(300/1920*100%);
-    top: calc(-80/1080*100%);
+    top: calc(-20/1080*100%);
     border-left: 1px solid #000000;
 `
 
@@ -23,7 +23,7 @@ const Line3 = styled.div `
     width: 0px;
     height: calc(636/1080*100%);
     left: calc(300/1920*100%);
-    top: calc(444/1080*100%);
+    top: calc(630/1080*100%);
     border-left: 1px solid #000000;
 `
 
