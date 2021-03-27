@@ -26,6 +26,7 @@ const Line3 = styled.div `
     top: calc(119/1080*100%);
     left: calc(1620/1920*100%);
     border-left: 1px solid #000000;
+    z-index: -2;
 `
 
 const HeaderLines = () => {

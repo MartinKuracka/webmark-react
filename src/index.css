@@ -6,6 +6,8 @@
   --box-color: #C4C4C4;
   --radius: 10px;
   --shadow: 8px 5px 13px rgb(109, 109, 109);
+  --t1: 1.3rem;
+  --t2: 1.1rem;
 }
 
 html {

@@ -13,7 +13,9 @@ const Wrapper = styled.div `
 const Image = styled.img `
     position: absolute;
     margin: ${props => props.logo ? '0' : '100px auto'};
-    width: ${props => props.logo ? '680px' : '80%'};
+    width: ${props => props.logo ? '680px' : '90%'};
+    left: ${props => props.logo ? null : '150px'};
+    top: ${props => props.logo ? null : '-50px'};
     z-index: -1;
     box-shadow: ${props => props.logo ? 'var(--shadow)' : null };
 `

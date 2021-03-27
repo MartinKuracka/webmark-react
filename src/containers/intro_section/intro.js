@@ -36,7 +36,7 @@ const ImgBlock = styled.div `
 
 const Headline = styled.h2 `
     color: var(--primary);
-    font-size: 1.6rem;
+    font-size: var(--t1);
     font-weight: 600;
 `
 
@@ -48,6 +48,7 @@ const Underline = styled.div `
 `
 
 const Text = styled.p `
+    font-size: var(--t2);
     width: 90%;
     color: var(--primary);
     letter-spacing: 0px;
