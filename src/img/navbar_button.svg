@@ -6,9 +6,9 @@
 <stop stop-color="#616161"/>
 <stop offset="1" stop-color="#CACACA"/>
 </linearGradient>
-<linearGradient id="paint1_linear" x1="51" y1="22" x2="29.5" y2="-12" gradientUnits="userSpaceOnUse">
-<stop stop-color="#707070"/>
-<stop offset="1" stop-color="#482A2A" stop-opacity="0.19"/>
+<linearGradient id="paint1_linear" x1="21" y1="-2" x2="35" y2="34" gradientUnits="userSpaceOnUse">
+<stop stop-color="#343333"/>
+<stop offset="1" stop-color="#BBB8B8" stop-opacity="0.51"/>
 </linearGradient>
 </defs>
 </svg>
