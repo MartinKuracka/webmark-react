@@ -21,19 +21,20 @@ const Container = styled.div `
     width: 90%;
     margin-top: 160px;
 `
-const Span = styled.span `
-    font-size: 9rem;
-    color: var(--primary2);
-    font-weight: 900;
-    z-index: 10;
-    letter-spacing: -20px;
-`
+
 const Text = styled.h1 `
     font-size: ${props => props.second ? '7rem' : '3rem'};
     font-weight: ${props => props.second ? '600' : '300'};
     color: var(--primary);
     z-index:10;
     letter-spacing: ${props => props.second ? '-16px' : '-5px'};
+`
+const Span = styled.span `
+    font-size: 9rem;
+    color: var(--primary2);
+    font-weight: 800;
+    z-index: 10;
+    letter-spacing: -20px;
 `
 
 const HeadSection = () => {
