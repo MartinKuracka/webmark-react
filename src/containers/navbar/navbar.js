@@ -14,9 +14,10 @@ const NavWrapper = styled.nav `
     width: 100px;
     height: 100vh;
     ${'' /* background-color: var(--primary2); */}
-    right: 30px;
+    right: 50px;
     z-index: 5;
     opacity: 0.8;
+    margin-top: -10px;
 `
 const Letter = styled.img `
     position: absolute;
