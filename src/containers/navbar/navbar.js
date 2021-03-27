@@ -21,18 +21,19 @@ const NavWrapper = styled.nav `
 const Letter = styled.img `
     position: absolute;
     height:2.1rem;
-    margin-top: 13px;
-    margin-left: ${props => props.i ? '10px' : 
-                            props.w ? '-5px' : 
+    margin-top: 18px;
+    margin-left: ${props => props.i ? '10px' :
+                            props.w ? '-5px' :
                             props.c ? '3px'  : null};
-    
 `
 const NavButton = styled.img `
     position: absolute;
-    width: 60px;
+    width: 80px;
     z-index: -1;
-    margin-left: 40px;
+    ${'' /* margin-left: 40px; */}
     margin-top:35px;
+    ${'' /* opacity: 0.4; */}
+
 `
 const Ul = styled.ul `
     list-style: none;
@@ -46,17 +47,17 @@ const Li = styled.li `
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: rotate(-13deg);
+    transform: rotate(13deg);
     padding-top: 72px;
-    margin-right: 80px;
-    transition: transform 230ms ease-in-out;
+    margin-right: 50px;
+    transition: transform 130ms ease-in-out;
     &:hover {
         transform: scale(1.1);
-        ${'' /* transform: rotate(30deg); */}
     }
 `
 const Link = styled.a `
-    font-size: 3rem;
+    position:absolute;
+    font-size: var(--t2);
     font-weight: 900;
     color: var(--primary);
     text-decoration: none;
@@ -64,45 +65,57 @@ const Link = styled.a `
     text-shadow: 2px 2px var(--background);
     ${'' /* z-index: 200; */}
 `
+const Name = styled.p `
+    position:absolute;
+    margin-top: 35px;
+    margin-left: ${props => props.nfo ? '25px': '33px'};
+    font-weight:300;
+`
 const Navbar = () => {
     return(
         <div>
             <NavWrapper>
                 <Ul>
                     <Li>
-                        <NavButton src={Button} />
                         <Link href="#home">
+                            <NavButton src={Button} />
                             <Letter src={H} />
+                            <Name>ome</Name>
                         </Link>
                     </Li>
                     <Li>
-                        <NavButton src={Button} />
                         <Link href="#intro">
+                            <NavButton src={Button} />
                             <Letter src={I} i/>
+                            <Name nfo>nfo</Name>
                         </Link>
                     </Li>
                     <Li>
-                        <NavButton src={Button} />
                         <Link href="#works">
+                            <NavButton src={Button} />
                             <Letter src={W} w/>
+                            <Name>orks</Name>
                         </Link>
                     </Li>
                     <Li>
-                        <NavButton src={Button} />
                         <Link href="#about">
+                            <NavButton src={Button} />
                             <Letter src={A} />
+                            <Name>bout</Name>
                         </Link>
                     </Li>
                     <Li>
-                        <NavButton src={Button} />
                         <Link href="#coop">
+                            <NavButton src={Button} />
                             <Letter src={C} c/>
+                            <Name>oop</Name>
                         </Link>
                     </Li>
                     <Li>
-                        <NavButton src={Button} />
                         <Link href="#contact">
+                            <NavButton src={Button} />
                             <Letter src={C} c/>
+                            <Name>ontact</Name>
                         </Link>
                     </Li>
                 </Ul>
