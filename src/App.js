@@ -37,7 +37,7 @@ function App() {
         <HeaderLines />
         <HeadSection />          
       </Section>
-      <Section>
+      <Section id='intro'>
         <IntroLines />
         <IntroSection />          
       </Section>
