@@ -14,10 +14,12 @@ const NavWrapper = styled.nav `
     width: 100px;
     height: 100vh;
     ${'' /* background-color: var(--primary2); */}
-    right: 50px;
+    right: 0px;
     z-index: 5;
-    opacity: 0.8;
+    opacity: 1;
     margin-top: -10px;
+    padding-right: 25px;
+    background-color: rgba(255,255,255,0.3)
 `
 const Letter = styled.img `
     position: absolute;
@@ -40,14 +42,11 @@ const Ul = styled.ul `
     margin-left: -30px;
     display: flex;
     flex-direction: column;
-    align-items: left;
     text-decoration: none;
 `
 const Li = styled.li `
     display: flex;
     flex-direction: column;
-    align-items: center;
-    ${'' /* transform: rotate(13deg); */}
     padding-top: 102px;
     margin-right: 50px;
     transition: transform 130ms ease-in-out;
@@ -77,42 +76,42 @@ const Navbar = () => {
                 <Ul>
                     <Li>
                         <Link href="#home">
-                            <NavButton src={Button} />
+                            {/* <NavButton src={Button} /> */}
                             <Letter src={H} />
                             <Name>ome</Name>
                         </Link>
                     </Li>
                     <Li>
                         <Link href="#intro">
-                            <NavButton src={Button} />
+                            {/* <NavButton src={Button} /> */}
                             <Letter src={I} i/>
                             <Name nfo>nfo</Name>
                         </Link>
                     </Li>
                     <Li>
                         <Link href="#works">
-                            <NavButton src={Button} />
+                            {/* <NavButton src={Button} /> */}
                             <Letter src={W} w/>
                             <Name>orks</Name>
                         </Link>
                     </Li>
                     <Li>
                         <Link href="#about">
-                            <NavButton src={Button} />
+                            {/* <NavButton src={Button} /> */}
                             <Letter src={A} />
                             <Name>bout</Name>
                         </Link>
                     </Li>
                     <Li>
                         <Link href="#coop">
-                            <NavButton src={Button} />
+                            {/* <NavButton src={Button} /> */}
                             <Letter src={C} c/>
                             <Name>oop</Name>
                         </Link>
                     </Li>
                     <Li>
                         <Link href="#contact">
-                            <NavButton src={Button} />
+                            {/* <NavButton src={Button} /> */}
                             <Letter src={C} c/>
                             <Name>ontact</Name>
                         </Link>

@@ -18,9 +18,9 @@ const Section = styled.div `
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: ${props => props.works ? 'stretch' : 'center'};
+  align-items: ${props => props.works ? 'stretch' : 'start'};
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
   margin: 0px;
 `
 const LogoIcon = styled.img `

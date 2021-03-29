@@ -26,7 +26,7 @@ const Image = styled.img `
                          : '150px'};
     top: ${props => props.logo ? null : '-50px'};
     z-index: ${props => props.second ? '-2' : '-1'};
-    right: ${props => props.second ? '-350px': null };
+    right: ${props => props.second ? '-320px': null };
     box-shadow: ${props => props.logo ? 'var(--shadow)' : null };
 `
 const Container = styled.div `
@@ -46,7 +46,7 @@ const Text = styled.h1 `
         ? '-16px' 
         : props.guide 
             ? '-4px' :'-5px'};
-    margin-top: ${props => props.guide ? '100px' : null};
+    margin-top: ${props => props.guide ? '13%' : null};
     text-align: ${props => props.guide ? 'end' : null};
     background-color: ${props => props.guide ? 'rgba(255,255,255,0.4)' : null};
     padding: ${props => props.guide ? '15px' : null}
@@ -68,7 +68,7 @@ const HeadSection = () => {
                 <Text><Span>W</Span>elcome To The</Text>
                 <Text second><Span>W</Span>ebMark</Text>
                 <Image src={Webmark} logo/>
-                <Text guide><Span dots>... I'm Martin</Span> <br/><br/>let me guide You through my portfolio. . .</Text>
+                <Text guide><Span dots>... I'm Martin</Span> <br/><br/>and I will guide You through my portfolio. . .</Text>
             </Container>
         </Wrapper>
     )

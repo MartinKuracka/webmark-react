@@ -16,7 +16,7 @@ const BlobImg = styled.img `
     z-index: -1;
 `
 const Headline = styled.h2 `
-    margin-top: 160px;
+    margin-top: 20%;
     width: 100%;
     text-align: end;
     font-size: var(--t1);

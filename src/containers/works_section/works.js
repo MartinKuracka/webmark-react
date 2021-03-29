@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import Blob from '../../img/blob_works.svg';
 import Blob3 from '../../img/works-blob2.svg';
-import Thumb1 from '../../img/Thumb_websites.jpg';
-import Thumb2 from '../../img/Thumb_apps.jpg';
-import Thumb3 from '../../img/Thumb_comp.jpg';
+import Thumb1 from '../../img/undraw2.svg';
+import Thumb2 from '../../img/undraw3.svg';
+import Thumb3 from '../../img/undraw1.svg';
 
 
 
@@ -17,11 +17,12 @@ const Blob1 = styled.img `
     right: 0;
     width: 45%;
     z-index: 3;
+    margin-top: -10%;
 `
 const Blob2 = styled.img `
     position: absolute;
     left: 0px;
-    top: 19%;
+    top: 12%;
     width: 100vw;
     z-index:2
 `
@@ -51,21 +52,13 @@ const BlockWrap = styled.div `
     flex-direction:column;
     align-items:center;
 `
-const ImgBlock = styled.div `
-    width: 370px;
-    height: 300px;
-    background-color:var(--box-color);
-    z-index: 5;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-`
 const ThumbImg = styled.img `
     width: 370px;
     height: 300px;
     border-radius: var(--radius);
-    box-shadow: var(--shadow);
-    border: 10px solid var(--box-color);
-    z-index: 10;
+    border: 5px solid var(--primary);
+    background-color: var(--background);
+    z-index: 3;
 `
 const Underline = styled.div `
     width: 50%;
