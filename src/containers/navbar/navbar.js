@@ -48,7 +48,7 @@ const Li = styled.li `
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: rotate(13deg);
+    ${'' /* transform: rotate(13deg); */}
     padding-top: 72px;
     margin-right: 50px;
     transition: transform 130ms ease-in-out;
