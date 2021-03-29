@@ -1,16 +1,22 @@
 import styled from 'styled-components';
 import Blob from '../../img/blob_intro.svg';
-import BehindText from '../../img/behind_header.png'
+import BehindText from '../../img/behind_header.png';
+import BehindText2 from '../../img/behind_header2.png';
+
 
 const Wrapper = styled.div `
     width:65%;
 `
 const BlobImg = styled.img `
     position: absolute;
-    left: ${props => props.behind ? '17%' : '0'};
-    width: ${props => props.behind ? '34%' : '50%'};
-    top: ${props => props.behind ? '9%' : '18%'};
-    height: ${props => props.behind ? '35%' : null};
+    left: ${props => props.behind 
+            ? '18%' :
+                props.behind2 ? '51%': '0'};
+    width: ${props => props.back ? '50%' : '31%'};
+    top: ${props => props.behind 
+            ? '9%' : 
+                props.behind2 ? '51%' : '18%'};
+    height: ${props => props.back ? null : '36%'};
     z-index: -1;
 `
 
@@ -66,13 +72,14 @@ const Span = styled.span `
 const IntroSection = () => {
     return(
         <Wrapper>
-            <BlobImg src={Blob}/>
+            <BlobImg src={Blob} back/>
             <FieldWrap>
                 <TextBlock>
                     <BlobImg src={BehindText} behind/>
+                    <BlobImg src={BehindText2} behind2/>
                     <Headline>Delivering experience</Headline>
                     <Underline />
-                    <Text>I'm always using latest technologies and trends to deliver more than just a Website - <Span>I strive to deliver experience</Span> - all without compromising the performance.</Text>
+                    <Text>I'm always using latest technologies and trends to deliver more than just a Website - <Span>I strive to deliver experience</Span> - all without compromising the sped and performance.</Text>
                 </TextBlock>
                 <ImgBlock>
 

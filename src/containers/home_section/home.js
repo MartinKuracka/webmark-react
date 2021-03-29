@@ -68,7 +68,7 @@ const HeadSection = () => {
                 <Text><Span>W</Span>elcome To The</Text>
                 <Text second><Span>W</Span>ebMark</Text>
                 <Image src={Webmark} logo/>
-                <Text guide><Span dots>... I'm Martin</Span> <br/><br/>and I will guide You through my portfolio. . .</Text>
+                <Text guide><Span dots>... I'm Martin</Span> <br/><br/>let me guide You through my portfolio. . .</Text>
             </Container>
         </Wrapper>
     )
