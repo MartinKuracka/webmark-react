@@ -47,6 +47,7 @@ const Headline = styled.h2 `
     color: var(--background);
     font-size: var(--t1);
     font-weight: 600;
+    letter-spacing: 1px;
 `
 
 const Underline = styled.div `

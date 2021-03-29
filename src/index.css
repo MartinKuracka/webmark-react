@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
 :root {
   --primary: #492A2A;
   --primary2: #A01C1C;
@@ -30,3 +32,6 @@ h1,h2,h3,h4,h5,h6,p {
   color: var(--primary);
 }
 
+h2 {
+  font-family: 'Cinzel', serif;
+}

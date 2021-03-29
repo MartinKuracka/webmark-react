@@ -1,3 +1,4 @@
+import {useState, useEffect} from 'react';
 import styled from 'styled-components';
 import Blob from '../../img/blob_works.svg';
 import Blob3 from '../../img/works-blob2.svg';
@@ -45,12 +46,14 @@ const WorksBlock = styled.div `
     display: inline-flex;
     justify-content: center;
 `
-const BlockWrap = styled.div `
+const BlockWrap = styled.a `
     width: 100%;
     margin: 0px 10px;
     display: flex;
     flex-direction:column;
     align-items:center;
+    cursor: pointer;
+    text-decoration: none;
 `
 const ThumbImg = styled.img `
     width: 370px;
@@ -67,6 +70,27 @@ const Underline = styled.div `
     background-color: var(--primary);
 `
 const WorksSection = () => {
+    const [worksPage, setPage] = useState('none');
+
+    const mainpage = () => {
+        return (
+            <WorksBlock>
+                <BlockWrap href='#home'>
+                    <ThumbImg src={Thumb1} />
+                    <Headline name>Websites</Headline>
+                </BlockWrap>
+                <BlockWrap href='#home'>
+                    <ThumbImg src={Thumb2} />
+                    <Headline name>Web Apps</Headline>
+                </BlockWrap>
+                <BlockWrap href='#home'>
+                    <ThumbImg src={Thumb3} />
+                    <Headline name>Components</Headline>
+                </BlockWrap>
+            </WorksBlock>
+        )
+    }
+
     return(
         <Wrapper>
             <Blob1 src={Blob}/>
@@ -76,20 +100,8 @@ const WorksSection = () => {
                     <Headline>Now take a Look at My Works...</Headline>
                     <Underline />
                 </TextWrap>
-                <WorksBlock>
-                    <BlockWrap>
-                        <ThumbImg src={Thumb1} />
-                        <Headline name>Websites</Headline>
-                    </BlockWrap>
-                    <BlockWrap>
-                        <ThumbImg src={Thumb2} />
-                        <Headline name>Web Apps</Headline>
-                    </BlockWrap>
-                    <BlockWrap>
-                        <ThumbImg src={Thumb3} />
-                        <Headline name>Components</Headline>
-                    </BlockWrap>
-                </WorksBlock>
+                {worksPage === 'none' ? mainpage() : null}
+                
             </Wrapper>
         </Wrapper>
     )

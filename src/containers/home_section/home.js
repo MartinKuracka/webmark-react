@@ -35,6 +35,7 @@ const Container = styled.div `
 `
 
 const Text = styled.h1 `
+    font-family: ${props => props.guide ? 'Cinzel' : null};
     font-size: ${props => props.second 
         ? '7rem' 
         : props.guide 
@@ -45,18 +46,19 @@ const Text = styled.h1 `
     letter-spacing: ${props => props.second 
         ? '-16px' 
         : props.guide 
-            ? '-4px' :'-5px'};
+            ? '-2px' :'-5px'};
     margin-top: ${props => props.guide ? '13%' : null};
     text-align: ${props => props.guide ? 'end' : null};
     background-color: ${props => props.guide ? 'rgba(255,255,255,0.4)' : null};
     padding: ${props => props.guide ? '15px' : null}
 `
 const Span = styled.span `
+    font-family: 'Cinzel', serif;
     font-size: ${props => props.dots ? '3rem' : '9rem'};
     color: ${props => props.dots ? 'var(--primary2)' : 'var(--primary2)'};
     font-weight: ${props => props.dots ? '600' : '800'};
     z-index: 10;
-    letter-spacing: ${props => props.dots ? '-4px' : '-20px'};
+    letter-spacing: ${props => props.dots ? '-2px' : '-20px'};
 `
 
 const HeadSection = () => {
@@ -68,7 +70,7 @@ const HeadSection = () => {
                 <Text><Span>W</Span>elcome To The</Text>
                 <Text second><Span>W</Span>ebMark</Text>
                 <Image src={Webmark} logo/>
-                <Text guide><Span dots>... I'm Martin</Span> <br/><br/>and I will guide You through my portfolio. . .</Text>
+                <Text guide>... I'm <Span dots> Martin</Span> <br/><br/>and I will guide You through my portfolio. . .</Text>
             </Container>
         </Wrapper>
     )

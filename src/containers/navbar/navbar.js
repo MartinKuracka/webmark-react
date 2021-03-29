@@ -18,7 +18,7 @@ const NavWrapper = styled.nav `
     z-index: 5;
     opacity: 1;
     margin-top: -10px;
-    padding-right: 25px;
+    padding-right: 35px;
     background-color: rgba(255,255,255,0.3)
 `
 const Letter = styled.img `
@@ -64,6 +64,7 @@ const Link = styled.a `
     text-shadow: 2px 2px var(--background);
 `
 const Name = styled.p `
+    font-family: 'Cinzel', serif;
     position:absolute;
     margin-top: 35px;
     margin-left: ${props => props.nfo ? '25px': '33px'};
