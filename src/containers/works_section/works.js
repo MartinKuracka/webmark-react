@@ -58,7 +58,7 @@ const WorksSection = () => {
             <Blob2 src={Blob3}/>
             <Wrapper inside>
                 <TextWrap>
-                    <Headline>Take a Look at My Works...</Headline>
+                    <Headline>Now take a Look at My Works...</Headline>
                     <Underline />
                 </TextWrap>
                 <WorksBlock>

@@ -48,11 +48,7 @@ const Li = styled.li `
     flex-direction: column;
     align-items: center;
     ${'' /* transform: rotate(13deg); */}
-<<<<<<< HEAD
-    padding-top: 72px;
-=======
     padding-top: 102px;
->>>>>>> 0a2a45f3dc686dfd204f2ab558d1bfda71b1881c
     margin-right: 50px;
     transition: transform 130ms ease-in-out;
     &:hover {
@@ -67,7 +63,6 @@ const Link = styled.a `
     text-decoration: none;
     cursor: pointer;
     text-shadow: 2px 2px var(--background);
-    ${'' /* z-index: 200; */}
 `
 const Name = styled.p `
     position:absolute;
