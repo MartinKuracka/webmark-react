@@ -31,9 +31,8 @@ const NavButton = styled.img `
     position: absolute;
     width: 80px;
     z-index: -1;
-    ${'' /* margin-left: 40px; */}
+    margin-left: -20px;
     margin-top:35px;
-    ${'' /* opacity: 0.4; */}
 
 `
 const Ul = styled.ul `
@@ -49,7 +48,11 @@ const Li = styled.li `
     flex-direction: column;
     align-items: center;
     ${'' /* transform: rotate(13deg); */}
+<<<<<<< HEAD
     padding-top: 72px;
+=======
+    padding-top: 102px;
+>>>>>>> 0a2a45f3dc686dfd204f2ab558d1bfda71b1881c
     margin-right: 50px;
     transition: transform 130ms ease-in-out;
     &:hover {

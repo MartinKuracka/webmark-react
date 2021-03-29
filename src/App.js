@@ -11,6 +11,7 @@ import Navbar from './containers/navbar/navbar';
 import IntroSection from './containers/intro_section/intro';
 import WorksSection from './containers/works_section/works';
 import AboutSection from './containers/about_section/about';
+import ContactSection from './containers/contact_section/contact'
 
 
 const Section = styled.div `
@@ -45,10 +46,9 @@ function App() {
         <WorksLines />
         <WorksSection />
       </Section>
-      <Section id='about'>
+      <Section id='about' works>
         <AboutLines />
         <AboutSection />
-          About
       </Section>
       <Section id='coop'>
         <CoopLines/>
@@ -56,7 +56,7 @@ function App() {
       </Section>
       <Section id='contact'>
         <ContactLines />
-          Contact
+        <ContactSection />
       </Section>
     </div>
   );
