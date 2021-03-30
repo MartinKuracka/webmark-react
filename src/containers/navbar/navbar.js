@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Button from '../../img/navbar_button.svg';
 import H from '../../img/H.png';
 import I from '../../img/I.png';
 import W from '../../img/W.png';
@@ -28,14 +27,6 @@ const Letter = styled.img `
     margin-left: ${props => props.i ? '10px' :
                             props.w ? '-5px' :
                             props.c ? '3px'  : null};
-`
-const NavButton = styled.img `
-    position: absolute;
-    width: 80px;
-    z-index: -1;
-    margin-left: -20px;
-    margin-top:35px;
-
 `
 const Ul = styled.ul `
     list-style: none;

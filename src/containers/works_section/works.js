@@ -1,11 +1,13 @@
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 import styled from 'styled-components';
 import Blob from '../../img/blob_works.svg';
 import Blob3 from '../../img/works-blob2.svg';
 import Thumb1 from '../../img/undraw2.svg';
 import Thumb2 from '../../img/undraw3.svg';
 import Thumb3 from '../../img/undraw1.svg';
-
+import WebPages from './webpages/webpages';
+import WebApps from './webapps/webapps';
+import Components from './components/components';
 
 
 const Wrapper = styled.div `
@@ -72,18 +74,23 @@ const Underline = styled.div `
 const WorksSection = () => {
     const [worksPage, setPage] = useState('none');
 
+    const changepage = (value) => {
+        console.log(value);
+        setPage(value);
+    }
+
     const mainpage = () => {
         return (
             <WorksBlock>
-                <BlockWrap href='#home'>
+                <BlockWrap onClick={() => changepage('webs')}>
                     <ThumbImg src={Thumb1} />
                     <Headline name>Websites</Headline>
                 </BlockWrap>
-                <BlockWrap href='#home'>
+                <BlockWrap onClick={() => changepage('apps')}>
                     <ThumbImg src={Thumb2} />
                     <Headline name>Web Apps</Headline>
                 </BlockWrap>
-                <BlockWrap href='#home'>
+                <BlockWrap onClick={() => changepage('components')}>
                     <ThumbImg src={Thumb3} />
                     <Headline name>Components</Headline>
                 </BlockWrap>
@@ -101,7 +108,9 @@ const WorksSection = () => {
                     <Underline />
                 </TextWrap>
                 {worksPage === 'none' ? mainpage() : null}
-                
+                {worksPage === 'webs' ? <WebPages /> : null}
+                {worksPage === 'apps' ? <WebApps /> : null}
+                {worksPage === 'components' ? <Components /> : null}
             </Wrapper>
         </Wrapper>
     )
