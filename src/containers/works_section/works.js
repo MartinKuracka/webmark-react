@@ -108,9 +108,11 @@ const WorksSection = () => {
                     <Underline />
                 </TextWrap>
                 {worksPage === 'none' ? mainpage() : null}
+            <WorksBlock>
                 {worksPage === 'webs' ? <WebPages /> : null}
                 {worksPage === 'apps' ? <WebApps /> : null}
                 {worksPage === 'components' ? <Components /> : null}
+            </WorksBlock>
             </Wrapper>
         </Wrapper>
     )

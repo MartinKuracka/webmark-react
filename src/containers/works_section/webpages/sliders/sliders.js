@@ -3,7 +3,7 @@ import Image1 from '../../../../img/Thumb_apps.jpg';
 
 const Wrapper = styled.div `
     margin: ${props => props.text ? '0px' : '25px'};
-    position: relative;
+    ${'' /* position: relative; */}
     display: flex;
     flex-direction: ${props => props.text ? 'column' : 'row'};
     height: 100%;
@@ -12,13 +12,13 @@ const Wrapper = styled.div `
     border-radius: var(--radius);
 `
 const TextField = styled.div `
-    position: relative;
-    margin: 15px;
+    ${'' /* position: relative; */}
+    margin: 0px 15px;
     width:45%;
-    height: 340px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: right;
 `
 const Header = styled.h2 `
     font-family: 'Cinzel', serif;
@@ -35,11 +35,12 @@ const Desription = styled.p `
 `
 const ButtonWrapper = styled.div `
     display: inline-flex;
+    justify-content: flex-end;
 `
 const Button = styled.button `
     width: 7rem;
     height: 2rem;
-    margin: 5px;
+    margin: 0px 5px;
     border-radius: 2rem;
     background-color: none;
     color: var(--primary2);
