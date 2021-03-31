@@ -79,6 +79,8 @@ const WorksSection = () => {
         setPage(value);
     }
 
+    console.log('from paretn', changepage)
+
     const mainpage = () => {
         return (
             <WorksBlock>
@@ -109,9 +111,9 @@ const WorksSection = () => {
                 </TextWrap>
                 {worksPage === 'none' ? mainpage() : null}
             <WorksBlock>
-                {worksPage === 'webs' ? <WebPages /> : null}
-                {worksPage === 'apps' ? <WebApps /> : null}
-                {worksPage === 'components' ? <Components /> : null}
+                {worksPage === 'webs' ? <WebPages changepage={changepage}/> : null}
+                {worksPage === 'apps' ? <WebApps changepage={changepage}/> : null}
+                {worksPage === 'components' ? <Components changepage={changepage} /> : null}
             </WorksBlock>
             </Wrapper>
         </Wrapper>
