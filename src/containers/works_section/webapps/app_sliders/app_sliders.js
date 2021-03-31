@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Image1 from '../../../../img/Thumb_apps.jpg';
+import ButtonDef from '../../../../components/button';
 
 const Wrapper = styled.div `
     margin: ${props => props.text ? '0px' : '25px'};
@@ -37,21 +38,12 @@ const ButtonWrapper = styled.div `
     display: inline-flex;
     justify-content: flex-end;
 `
-const Button = styled.button `
-    width: 7rem;
-    height: 2rem;
-    margin: 0px 5px;
-    border-radius: 2rem;
-    background-color: none;
-    color: var(--primary2);
-    border: 2px solid var(--primary2);
-    cursor: pointer;
-    outline:none;
-    font-weight: 600;
-`
 const Image = styled.img `
     width: 50%;
     height: 50%;
+`
+const Button = styled(ButtonDef) `    
+    margin-left: 10px;
 `
 export const Slide5 = () => {
     return(

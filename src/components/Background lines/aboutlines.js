@@ -20,9 +20,9 @@ const Line2 = styled.div `
 
 const Line3 = styled.div `
     position: absolute;
-    width: calc(480/1920*100%);
+    width: calc(200/1920*100%);
     height: 0px;
-    left: calc(1230/1920*100%);
+    left: calc(1530/1920*100%);
     top: calc(150/1080*100%);
     border-top: 1px solid #000000;
 `

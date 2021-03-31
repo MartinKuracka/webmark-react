@@ -32,7 +32,7 @@ const Blob2 = styled.img `
 const TextWrap = styled.div `
     margin-top:50px;
     width: 100%;
-    height: 25vh;
+    height: 20vh;
 `
 const Headline = styled.h2 `
     width: 70%;

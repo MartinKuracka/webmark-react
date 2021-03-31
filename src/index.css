@@ -10,6 +10,9 @@
   --shadow: 8px 5px 13px rgb(109, 109, 109);
   --t1: 1.3rem;
   --t2: 1.1rem;
+  --button: linear-gradient(180deg, rgba(160,28,28,1) 0%, rgb(156, 70, 70) 100%);
+  --button_color: rgb(231, 227, 227);  
+  --button_font: 'Montserrat', sans-serif;
 }
 
 html {

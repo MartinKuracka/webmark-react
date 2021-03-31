@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 import Blob from '../../img/blob_intro.svg';
-import BehindText from '../../img/behind_header.png';
-import BehindText2 from '../../img/behind_header2.png';
-
+import Intro1 from '../../img/intro1.svg';
+import Intro2 from '../../img/intro2.svg';
 
 const Wrapper = styled.div `
     width:65%;
@@ -11,13 +10,13 @@ const Wrapper = styled.div `
 const BlobImg = styled.img `
     position: absolute;
     left: ${props => props.behind 
-            ? '18%' :
-                props.behind2 ? '51%': '0px'};
+            ? '17%' :
+                props.behind2 ? '52%': '0px'};
     width: ${props => props.back ? '50%' : '31%'};
     top: ${props => props.behind 
             ? '2%' : 
-                props.behind2 ? '30%' : '18%'};
-    height: ${props => props.back ? null : '26%'};
+                props.behind2 ? '33%' : '18%'};
+    height: ${props => props.back ? null : '32%'};
     z-index: -1;
 `
 
@@ -33,10 +32,10 @@ const TextBlock = styled.div `
     align-items: ${props => props.right ? 'flex-end' : 'flex-start'};
     text-align: ${props => props.right ? 'right' : null}
 `
-const ImgBlock = styled.div `
-    width: 50%;
+const ImgBlock = styled.img `
+    width: 45%;
     margin: 0px 20px;
-    height: 300px;
+    height: 330px;
     background-color:var(--box-color);
     z-index: 5;
     border-radius: var(--radius);
@@ -44,7 +43,7 @@ const ImgBlock = styled.div `
 `
 
 const Headline = styled.h2 `
-    color: var(--background);
+    color: var(--primary);
     font-size: var(--t1);
     font-weight: 600;
     letter-spacing: 1px;
@@ -54,13 +53,13 @@ const Underline = styled.div `
     width: 90%;
     height: 3px;
     margin-top: 10px;
-    background-color: var(--background);
+    background-color: var(--primary2);
 `
 
 const Text = styled.p `
     font-size: var(--t2);
     width: 90%;
-    color: var(--background);
+    color: var(--primary);
     letter-spacing: 0px;
     line-height: initial;
     margin-top: 10px;
@@ -77,18 +76,16 @@ const IntroSection = () => {
             <BlobImg src={Blob} back/>
             <FieldWrap>
                 <TextBlock>
-                    <BlobImg src={BehindText} behind/>
-                    <BlobImg src={BehindText2} behind2/>
                     <Headline>Delivering experience</Headline>
                     <Underline />
                     <Text>I'm always using latest technologies and trends to deliver more than just a Website - <Span>I strive to deliver experience</Span> - all without compromising the speed and performance.</Text>
                 </TextBlock>
-                <ImgBlock>
+                <ImgBlock src={Intro2}>
 
                 </ImgBlock>
             </FieldWrap>
             <FieldWrap>
-                <ImgBlock>
+                <ImgBlock src={Intro1}>
 
                 </ImgBlock>
                 <TextBlock right>
