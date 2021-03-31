@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Blob from '../../img/blob_about.svg';
+import MyFace from '../../img/face_BW2.PNG'
 
 const Wrapper = styled.div `
     position: relative;
@@ -31,16 +32,36 @@ const Underline = styled.div `
     align-self: end;
     background-color: var(--primary);
 `
+const InfoWrap = styled.div `
+    margin-top: 80px;
+    width: 90%;
+    height: 900px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: var(--radius);
+    padding: 30px;
+`
+const Header = styled.div`
+    width: 100%;
+    display: flex;
+`
+const Face = styled.img `
+    width: 20%;
+    border-radius: 50%;
+`
 const AboutSection = () => {
     return(
         <>
             <BlobImg src={Blob}/>
-            <Wrapper>        
+            <Wrapper>
                 <Wrapper headline>
                     <Headline>And now, get to know me...</Headline>
                     <Underline />
-                </Wrapper>    
-               
+                </Wrapper>
+                <InfoWrap>
+                    <Header>
+                        <Face src={MyFace} />
+                    </Header>
+                </InfoWrap>
             </Wrapper>
         </>
     )
