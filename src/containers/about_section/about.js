@@ -34,19 +34,29 @@ const Underline = styled.div `
 `
 const InfoWrap = styled.div `
     margin-top: 80px;
-    width: 90%;
+    width: 100%;
     height: 900px;
     background-color: rgba(255,255,255,0.4);
     border-radius: var(--radius);
-    padding: 30px;
 `
 const Header = styled.div`
+    margin: 30px;
     width: 100%;
     display: flex;
 `
 const Face = styled.img `
-    width: 20%;
+    float: left;
+    width: 25%;
+    height: 25%;
+    margin: 0px 15px;
     border-radius: 50%;
+`
+const Textfield = styled.p `
+    font-size: var(--t1);
+    line-height: initial;
+    letter-spacing: 0;
+    width: ${props => props.main ? '90%' : '65%'};
+    padding: ${props => props.main ? '40px' : '20px'};
 `
 const AboutSection = () => {
     return(
@@ -60,7 +70,9 @@ const AboutSection = () => {
                 <InfoWrap>
                     <Header>
                         <Face src={MyFace} />
+                        <Textfield>I am an enthusiastic and positive person who loves to learn and discover. I have rich life experience from living in different countries meeting different people and cultures. My main life motto is - make no judgements, be kind, respectfull and always do Your best. I am former Electrical Engineer, Applications Engineer, Project Manager, Support Technician or even dancer, DJ and music producer. I am also self-taught Web Developer with desire to make great things and help make quality of peoples lifes better. Combine all these experiences into one and You will get a person that is capable of great appreciation and understanding, ability to see the bigger picture and to bring feel good attitude to work environment. I work hard ... and play hard...  </Textfield>
                     </Header>
+                    <Textfield main>As a Web Developer, my weapon of choice became React for it's great fliexibility and perspective future. For better state management and performance I use Redux, I prefer Styled Components for styling - or I can work with libraries like Bootstrap based on requirements. Proficiency in HTML and CSS is a must, no need to mention those and for server side I would choose NodeJS + ExpressJS. In regards of the databases, MySQL or PostgreSQL should not be a problem. If You wish, You can download my CV below for more details.  </Textfield>
                 </InfoWrap>
             </Wrapper>
         </>
