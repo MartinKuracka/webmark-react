@@ -8,12 +8,12 @@ import Thumb3 from '../../img/undraw1.svg';
 import WebPages from './webpages/webpages';
 import WebApps from './webapps/webapps';
 import Components from './components/components';
+import {WrapperDef, HeadlineDef} from '../../components/styled_components'
 
-
-const Wrapper = styled.div `
+const Wrapper = styled(WrapperDef) `
+    justify-content: flex-start;
+    align-items: flex-start;
     width: ${props => props.inside ? '100%' : '65%'};
-    display:flex;
-    flex-direction: column;
 `
 const Blob1 = styled.img `
     position: absolute;
@@ -34,14 +34,14 @@ const TextWrap = styled.div `
     width: 100%;
     height: 20vh;
 `
-const Headline = styled.h2 `
+const Headline = styled(HeadlineDef) `
     width: 70%;
-    margin-top: ${props => props.name ? '20px' : null};
+    margin-top: ${props => props.name && '20px'};
     color: ${props => props.name ? '#EFECEA' : 'var(--primary)'};
-    font-size: var(--t1);
-    font-weight: ${props => props.name ? '300' : '600'};
+    font-weight: ${props => props.name ? '300' : '900'};
+    font-size: ${props => props.name && '1.3rem'};
     z-index: 10;
-    text-align: ${props => props.name ? 'center' : null};
+    text-align: ${props => props.name && 'center'};
 `
 const WorksBlock = styled.div `
     width: 100%;

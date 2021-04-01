@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import Blob from '../../img/blobs_header.svg';
 import Blob2 from '../../img/svgback_header.svg';
-import Webmark from '../../img/web_design.png'
+import Webmark from '../../img/web_design.png';
+import {WrapperDef} from '../../components/styled_components'
 
-const Wrapper = styled.div `
-    display: flex;
-    justify-content: center;
-    position: relative;
+
+const Wrapper = styled(WrapperDef)`
+    justify-content: flex-start;
     margin: 20px auto;
     width: 65%;
     height: 100%;

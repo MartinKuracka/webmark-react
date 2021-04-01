@@ -1,11 +1,7 @@
 import styled from 'styled-components';
+import {WrapperDef, TextDef} from '../../components/styled_components'
 
-const Wrapper = styled.div `
-    position: relative;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+const Wrapper = styled(WrapperDef) `
     width: 65%;
 `
 const Headline = styled.h2 `
@@ -33,7 +29,7 @@ const Input = styled.input `
     width: 100%;
     padding: 10px;
 `
-const TextField = styled.div `
+const TextField = styled(TextDef) `
     display: inline-flex;
     width: 100%;
     padding:10px;

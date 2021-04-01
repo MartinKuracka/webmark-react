@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 import Blob from '../../img/blob_about.svg';
 import MyFace from '../../img/face_BW2.PNG';
-import ButtonDef from '../../components/button'
+import {ButtonDef, WrapperDef, HeadlineDef, TextDef} from '../../components/styled_components';
 
-const Wrapper = styled.div `
-    position: relative;
-    display: flex;
-    flex-direction: column;
+
+const Wrapper = styled(WrapperDef) `
+    justify-content: flex-start;
     align-items: flex-end;
     width: ${props => props.headline ? '40%' : '65%'};
 `
@@ -17,13 +16,10 @@ const BlobImg = styled.img `
     top: 26%;
     z-index: -1;
 `
-const Headline = styled.h2 `
+const Headline = styled(HeadlineDef) `
     margin-top: 10%;
     width: 100%;
     text-align: end;
-    font-size: var(--t1);
-    color: var(--primary);
-    font-weight: 600;
 `
 const Underline = styled.div `
     width: 100%;
@@ -52,10 +48,7 @@ const Face = styled.img `
     margin: 0px 15px;
     border-radius: 50%;
 `
-const Textfield = styled.p `
-    font-size: var(--t1);
-    line-height: initial;
-    letter-spacing: 0;
+const Textfield = styled(TextDef) `
     width: ${props => props.main ? '90%' : '60%'};
     padding: ${props => props.main ? '30px 40px 40px 40px' : '20px'};
 `

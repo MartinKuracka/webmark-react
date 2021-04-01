@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 import Image1 from '../../../../img/Thumb_apps.jpg';
-import ButtonDef from '../../../../components/button';
+import {ButtonDef, TextDef, HeadlineDef} from '../../../../components/styled_components';
 
 const Wrapper = styled.div `
     margin: ${props => props.text ? '0px' : '25px'};
-    ${'' /* position: relative; */}
     display: flex;
     flex-direction: ${props => props.text ? 'column' : 'row'};
     height: 100%;
@@ -21,17 +20,12 @@ const TextField = styled.div `
     justify-content: space-between;
     text-align: right;
 `
-const Header = styled.h2 `
-    font-family: 'Cinzel', serif;
-    font-size: var(--t2);
-    font-weight: 600;
+const Header = styled(HeadlineDef) `
+    font-size: 1.5rem;
     margin-bottom: 15px;
     margin-top: ${props => props.tools ? '15px' : null}
 `
-const Desription = styled.p `
-    font-size: var(--t2);
-    font-weight: 300;
-    line-height: 1;
+const Desription = styled(TextDef) `
     letter-spacing: -1px;
 `
 const ButtonWrapper = styled.div `

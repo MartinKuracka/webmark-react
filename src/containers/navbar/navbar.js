@@ -4,10 +4,11 @@ import I from '../../img/I.png';
 import W from '../../img/W.png';
 import A from '../../img/A.png';
 import C from '../../img/C.png';
+import {WrapperDef} from '../../components/styled_components';
 
-const NavWrapper = styled.nav `
-    display: flex;
-    justify-content: center;
+
+const NavWrapper = styled(WrapperDef)`
+    flex-direction: row;
     align-items: flex-start;
     position: fixed;
     width: 100px;
@@ -15,7 +16,6 @@ const NavWrapper = styled.nav `
     ${'' /* background-color: var(--primary2); */}
     right: 0px;
     z-index: 5;
-    opacity: 1;
     margin-top: -10px;
     padding-right: 35px;
     background-color: rgba(255,255,255,0.3)

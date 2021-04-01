@@ -2,19 +2,21 @@ import styled from 'styled-components';
 import Blob from '../../img/blob_intro.svg';
 import Intro1 from '../../img/intro1.svg';
 import Intro2 from '../../img/intro2.svg';
+import {WrapperDef, TextDef, HeadlineDef} from '../../components/styled_components';
 
-const Wrapper = styled.div `
+
+const Wrapper = styled(WrapperDef) `
     width:65%;
     margin-top: 30px;
 `
 const BlobImg = styled.img `
     position: absolute;
-    left: ${props => props.behind 
+    left: ${props => props.behind
             ? '17%' :
                 props.behind2 ? '52%': '0px'};
     width: ${props => props.back ? '50%' : '31%'};
-    top: ${props => props.behind 
-            ? '2%' : 
+    top: ${props => props.behind
+            ? '2%' :
                 props.behind2 ? '33%' : '18%'};
     height: ${props => props.back ? null : '32%'};
     z-index: -1;
@@ -42,11 +44,7 @@ const ImgBlock = styled.img `
     box-shadow: var(--shadow);
 `
 
-const Headline = styled.h2 `
-    color: var(--primary);
-    font-size: var(--t1);
-    font-weight: 600;
-    letter-spacing: 1px;
+const Headline = styled(HeadlineDef) `
 `
 
 const Underline = styled.div `
@@ -56,12 +54,8 @@ const Underline = styled.div `
     background-color: var(--primary2);
 `
 
-const Text = styled.p `
-    font-size: var(--t2);
+const Text = styled(TextDef) `
     width: 90%;
-    color: var(--primary);
-    letter-spacing: 0px;
-    line-height: initial;
     margin-top: 10px;
     text-align: ${props => props.right ? 'right' : null}
 `
@@ -72,8 +66,9 @@ const Span = styled.span `
 `
 const IntroSection = () => {
     return(
+        <>
+        <BlobImg src={Blob} back/>
         <Wrapper>
-            <BlobImg src={Blob} back/>
             <FieldWrap>
                 <TextBlock>
                     <Headline>Delivering experience</Headline>
@@ -81,12 +76,10 @@ const IntroSection = () => {
                     <Text>I'm always using latest technologies and trends to deliver more than just a Website - <Span>I strive to deliver experience</Span> - all without compromising the speed and performance.</Text>
                 </TextBlock>
                 <ImgBlock src={Intro2}>
-
                 </ImgBlock>
             </FieldWrap>
             <FieldWrap>
                 <ImgBlock src={Intro1}>
-
                 </ImgBlock>
                 <TextBlock right>
                     <Headline>Beautifull and responsive</Headline>
@@ -94,8 +87,8 @@ const IntroSection = () => {
                     <Text >Whether Your customers use Mobile, Desktop or Tablet, my product always looks <Span>perfect on every device.</Span></Text>
                 </TextBlock>
             </FieldWrap>
-                
         </Wrapper>
+        </>
     )
 }
 
