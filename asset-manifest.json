@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/webmark-react/static/css/main.b6c4696b.chunk.css",
-    "main.js": "/webmark-react/static/js/main.c5b2e3c9.chunk.js",
-    "main.js.map": "/webmark-react/static/js/main.c5b2e3c9.chunk.js.map",
+    "main.css": "/webmark-react/static/css/main.62bc9bca.chunk.css",
+    "main.js": "/webmark-react/static/js/main.144ebf74.chunk.js",
+    "main.js.map": "/webmark-react/static/js/main.144ebf74.chunk.js.map",
     "runtime-main.js": "/webmark-react/static/js/runtime-main.28dd4e0f.js",
     "runtime-main.js.map": "/webmark-react/static/js/runtime-main.28dd4e0f.js.map",
     "static/css/2.8e594edb.chunk.css": "/webmark-react/static/css/2.8e594edb.chunk.css",
@@ -10,8 +10,9 @@
     "static/js/2.073c9972.chunk.js.map": "/webmark-react/static/js/2.073c9972.chunk.js.map",
     "index.html": "/webmark-react/index.html",
     "static/css/2.8e594edb.chunk.css.map": "/webmark-react/static/css/2.8e594edb.chunk.css.map",
-    "static/css/main.b6c4696b.chunk.css.map": "/webmark-react/static/css/main.b6c4696b.chunk.css.map",
+    "static/css/main.62bc9bca.chunk.css.map": "/webmark-react/static/css/main.62bc9bca.chunk.css.map",
     "static/js/2.073c9972.chunk.js.LICENSE.txt": "/webmark-react/static/js/2.073c9972.chunk.js.LICENSE.txt",
+    "static/media/Coop Background.04b0b8bd.svg": "/webmark-react/static/media/Coop Background.04b0b8bd.svg",
     "static/media/Thumb_apps.841c48bc.jpg": "/webmark-react/static/media/Thumb_apps.841c48bc.jpg",
     "static/media/blob_about.67d67ac0.svg": "/webmark-react/static/media/blob_about.67d67ac0.svg",
     "static/media/blob_intro.e6ff9e9b.svg": "/webmark-react/static/media/blob_intro.e6ff9e9b.svg",
@@ -34,7 +35,7 @@
     "static/js/runtime-main.28dd4e0f.js",
     "static/css/2.8e594edb.chunk.css",
     "static/js/2.073c9972.chunk.js",
-    "static/css/main.b6c4696b.chunk.css",
-    "static/js/main.c5b2e3c9.chunk.js"
+    "static/css/main.62bc9bca.chunk.css",
+    "static/js/main.144ebf74.chunk.js"
   ]
 }
