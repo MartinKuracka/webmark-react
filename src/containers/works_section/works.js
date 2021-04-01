@@ -101,9 +101,10 @@ const WorksSection = () => {
     }
 
     return(
+        <>
+        <Blob1 src={Blob}/>
+        <Blob2 src={Blob3}/>
         <Wrapper>
-            <Blob1 src={Blob}/>
-            <Blob2 src={Blob3}/>
             <Wrapper inside>
                 <TextWrap>
                     <Headline>Now take a Look at My Works...</Headline>
@@ -117,6 +118,7 @@ const WorksSection = () => {
             </WorksBlock>
             </Wrapper>
         </Wrapper>
+        </>
     )
 }
 
