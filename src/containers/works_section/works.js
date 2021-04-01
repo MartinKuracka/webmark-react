@@ -102,8 +102,8 @@ const WorksSection = () => {
 
     return(
         <>
-        <Blob1 src={Blob}/>
-        <Blob2 src={Blob3}/>
+        {/* <Blob1 src={Blob}/>
+        <Blob2 src={Blob3}/> */}
         <Wrapper>
             <Wrapper inside>
                 <TextWrap>

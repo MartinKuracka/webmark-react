@@ -12,7 +12,7 @@ const NavWrapper = styled(WrapperDef)`
     align-items: flex-start;
     position: fixed;
     width: 100px;
-    height: 100vh;
+    height: 100%;
     ${'' /* background-color: var(--primary2); */}
     right: 0px;
     z-index: 5;

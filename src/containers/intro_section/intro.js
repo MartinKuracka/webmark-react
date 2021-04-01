@@ -67,7 +67,7 @@ const Span = styled.span `
 const IntroSection = () => {
     return(
         <>
-        <BlobImg src={Blob} back/>
+        {/* <BlobImg src={Blob} back/> */}
         <Wrapper>
             <FieldWrap>
                 <TextBlock>

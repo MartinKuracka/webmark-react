@@ -21,7 +21,7 @@ const Section = styled.div `
   justify-content: center;
   align-items: ${props => props.works ? 'stretch' : 'start'};
   width: 100vw;
-  height: 150vh;
+  height: 100vh;
   margin: 0px;
 `
 const LogoIcon = styled.img `
@@ -37,11 +37,11 @@ function App() {
       <Navbar />
       <Section id='home'>
         <HeaderLines />
-        <HeadSection />          
+        <HeadSection />
       </Section>
       <Section id='intro'>
         <IntroLines />
-        <IntroSection />          
+        <IntroSection />
       </Section>
       <Section id='works' works>
         <WorksLines />

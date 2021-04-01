@@ -58,7 +58,7 @@ const Button = styled(ButtonDef) `
 const AboutSection = () => {
     return(
         <>
-            <BlobImg src={Blob}/>
+            {/* <BlobImg src={Blob}/> */}
             <Wrapper>
                 <Wrapper headline>
                     <Headline>And now, get to know me...</Headline>

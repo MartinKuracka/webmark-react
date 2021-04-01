@@ -14,7 +14,7 @@ const CoopSection = () => {
 
     return(
         <>
-        <Img src={BckImg} />
+        {/* <Img src={BckImg} /> */}
         <Wrapper>
             
         </Wrapper>

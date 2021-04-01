@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import Blob from '../../img/blobs_header.svg';
-import Blob2 from '../../img/svgback_header.svg';
 import Webmark from '../../img/web_design.png';
 import {WrapperDef} from '../../components/styled_components'
 
@@ -10,6 +9,9 @@ const Wrapper = styled(WrapperDef)`
     margin: 20px auto;
     width: 65%;
     height: 100%;
+    ${'' /* background-image: url(${Blob}); */}
+    background-repeat: no-repeat;
+    background-size: contain;
 `
 const Image = styled.img `
     position: ${props => props.blob 
@@ -64,8 +66,6 @@ const Span = styled.span `
 const HeadSection = () => {
     return(
         <Wrapper>
-            <Image src={Blob} blob/>
-            <Image src={Blob2} second/>
             <Container>
                 <Text><Span>W</Span>elcome To The</Text>
                 <Text second><Span>W</Span>ebMark</Text>
