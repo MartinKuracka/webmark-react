@@ -1,7 +1,8 @@
 import styled from 'styled-components';
-import Blob from '../../img/blobs_header.svg';
-import Webmark from '../../img/web_design.png';
-import {WrapperDef} from '../../components/styled_components'
+import Webmark from '../../img/Web Design.svg';
+import Background from '../../img/hdr_background.svg';
+import {WrapperDef} from '../../components/styled_components';
+import Image2 from '../../img/hdr_image.svg'
 
 
 const Wrapper = styled(WrapperDef)`
@@ -9,25 +10,33 @@ const Wrapper = styled(WrapperDef)`
     margin: 20px auto;
     width: 65%;
     height: 100%;
-    ${'' /* background-image: url(${Blob}); */}
+    ${'' /* background: url(${Background}); */}
     background-repeat: no-repeat;
-    background-size: contain;
+    background-position: center;
+    overflow: visible;
+`
+const Back = styled.img `
+    position: absolute;
+    width: auto;
 `
 const Image = styled.img `
     position: ${props => props.blob 
         ? 'absolute' :
-            props.second ? 'absolute'
-                         : 'relative'};
+            props.second ? 'absolute' : 
+                props.hero ? 'absolute' : 'relative'};
     margin: ${props => props.logo ? '0' : '100px auto'};
     width: ${props => props.logo ? '680px' :
-            props.second ? '110%'
-                         : '90%'};
+            props.second ? '110%' : 
+                props.hero ? '500px' : '90%'};
     left: ${props => props.logo 
         ? null : 
-            props.second ? null 
-                         : '150px'};
-    top: ${props => props.logo ? null : '-50px'};
-    z-index: ${props => props.second ? '-2' : '-1'};
+            props.second ? null : 
+                props.hero ? '800px' : '150px'};
+    top: ${props => props.logo ? null : 
+        props.hero ? '50px' : '-50px'};
+    z-index: ${props => props.second ? '-2' : 
+        props.logo ? '5' : 
+            props.hero ? '5' : '-1'};
     right: ${props => props.second ? '-320px': null };
     box-shadow: ${props => props.logo ? 'var(--shadow)' : null };
 `
@@ -65,14 +74,18 @@ const Span = styled.span `
 
 const HeadSection = () => {
     return(
+        <>
+        <Back src={Background} />
         <Wrapper>
             <Container>
                 <Text><Span>W</Span>elcome To The</Text>
                 <Text second><Span>W</Span>ebMark</Text>
                 <Image src={Webmark} logo/>
                 <Text guide>... I'm <Span dots> Martin</Span> <br/><br/>and I will guide You through my portfolio. . .</Text>
+                <Image src={Image2} hero/>
             </Container>
         </Wrapper>
+        </>
     )
 }
 

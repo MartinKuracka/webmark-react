@@ -28,18 +28,19 @@ const LogoIcon = styled.img `
   position: absolute;
   left: 12%;
   top: 20px;
+  z-index: 5;
 `
 
 function App() {
   return (
     <div>
       <LogoIcon src={Logo}/>
-      <Navbar />
+      {/* <Navbar /> */}
       <Section id='home'>
         <HeaderLines />
         <HeadSection />
       </Section>
-      <Section id='intro'>
+      {/* <Section id='intro'>
         <IntroLines />
         <IntroSection />
       </Section>
@@ -58,7 +59,7 @@ function App() {
       <Section id='contact'>
         <ContactLines />
         <ContactSection />
-      </Section>
+      </Section> */}
     </div>
   );
 }

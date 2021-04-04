@@ -63,7 +63,7 @@ const Name = styled.p `
 `
 const Navbar = () => {
     return(
-        <div>
+        <>
             <NavWrapper>
                 <Ul>
                     <Li>
@@ -110,7 +110,7 @@ const Navbar = () => {
                     </Li>
                 </Ul>
             </NavWrapper>
-        </div>
+        </>
     )
 }
 
