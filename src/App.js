@@ -24,22 +24,17 @@ const Section = styled.div `
   height: 100vh;
   margin: 0px;
 `
-const LogoIcon = styled.img `
-  position: absolute;
-  left: 12%;
-  top: 20px;
-  z-index: 5;
-`
+
 
 function App() {
   return (
     <div>
-      <LogoIcon src={Logo}/>
-      {/* <Navbar /> */}
-      <Section id='home'>
+      {/* <LogoIcon src={Logo}/> */}
+      <Navbar />
+      {/* <Section id='home'>
         <HeaderLines />
         <HeadSection />
-      </Section>
+      </Section> */}
       {/* <Section id='intro'>
         <IntroLines />
         <IntroSection />

@@ -20,22 +20,22 @@ const Back = styled.img `
     width: auto;
 `
 const Image = styled.img `
-    position: ${props => props.blob 
+    position: ${props => props.blob
         ? 'absolute' :
-            props.second ? 'absolute' : 
+            props.second ? 'absolute' :
                 props.hero ? 'absolute' : 'relative'};
     margin: ${props => props.logo ? '0' : '100px auto'};
     width: ${props => props.logo ? '680px' :
-            props.second ? '110%' : 
+            props.second ? '110%' :
                 props.hero ? '500px' : '90%'};
-    left: ${props => props.logo 
-        ? null : 
-            props.second ? null : 
+    left: ${props => props.logo
+        ? null :
+            props.second ? null :
                 props.hero ? '800px' : '150px'};
-    top: ${props => props.logo ? null : 
+    top: ${props => props.logo ? null :
         props.hero ? '50px' : '-50px'};
-    z-index: ${props => props.second ? '-2' : 
-        props.logo ? '5' : 
+    z-index: ${props => props.second ? '-2' :
+        props.logo ? '5' :
             props.hero ? '5' : '-1'};
     right: ${props => props.second ? '-320px': null };
     box-shadow: ${props => props.logo ? 'var(--shadow)' : null };
@@ -47,16 +47,16 @@ const Container = styled.div `
 
 const Text = styled.h1 `
     font-family: ${props => props.guide ? 'Cinzel' : null};
-    font-size: ${props => props.second 
-        ? '7rem' 
-        : props.guide 
+    font-size: ${props => props.second
+        ? '7rem'
+        : props.guide
             ? '2rem' : '3rem'};
     font-weight: ${props => props.second ? '600' : '300'};
     color: var(--primary);
     z-index:10;
-    letter-spacing: ${props => props.second 
-        ? '-16px' 
-        : props.guide 
+    letter-spacing: ${props => props.second
+        ? '-16px'
+        : props.guide
             ? '-2px' :'-5px'};
     margin-top: ${props => props.guide ? '13%' : null};
     text-align: ${props => props.guide ? 'end' : null};
