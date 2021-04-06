@@ -13,6 +13,8 @@ import WorksSection from './containers/works_section/works';
 import AboutSection from './containers/about_section/about';
 import ContactSection from './containers/contact_section/contact';
 import CoopSection from './containers/coop_section/coop';
+import Background from './img/hdr_background.svg';
+
 
 
 const Section = styled.div `
@@ -21,8 +23,16 @@ const Section = styled.div `
   justify-content: center;
   align-items: ${props => props.works ? 'stretch' : 'start'};
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   margin: 0px;
+  overflow: visible;
+`
+const Back = styled.img `
+    position: absolute;
+    width: auto;
+    align-content: center;
+    overflow: hidden;
 `
 
 
@@ -31,15 +41,14 @@ function App() {
     <div>
       {/* <LogoIcon src={Logo}/> */}
       <Navbar />
-      {/* <Section id='home'>
-        <HeaderLines />
+      <Section id='home' home>
         <HeadSection />
-      </Section> */}
-      {/* <Section id='intro'>
+      </Section>
+      <Section id='intro'>
         <IntroLines />
         <IntroSection />
       </Section>
-      <Section id='works' works>
+      {/* <Section id='works' works>
         <WorksLines />
         <WorksSection />
       </Section>

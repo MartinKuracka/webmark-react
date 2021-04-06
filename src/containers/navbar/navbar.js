@@ -15,9 +15,9 @@ const NavWrapper = styled(WrapperDef)`
     position: fixed;
     width: 100vw;
     height: 60px;
-    z-index: 5;
+    z-index: 1;
     padding-right: 35px;
-    background-color: rgba(255,255,255,0.3)
+    background-color: var(--primary2);
 `
 const Letter = styled.img `
     position: absolute;
@@ -61,16 +61,17 @@ const Name = styled.p `
 const LogoIcon = styled.img `
   position: absolute;
   width: 50px;
-  left: 12%;
+  left: 5%;
   top: 20px;
   z-index: 5;
 `
 const Navbar = () => {
     return(
         <>
-              <LogoIcon src={Logo}/>
+              
 
             <NavWrapper>
+            <LogoIcon src={Logo}/>
                 {/* <Ul>
                     <Li>
                         <Link href="#home">
