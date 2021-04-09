@@ -7,8 +7,6 @@ import C from '../../img/C.png';
 import {WrapperDef} from '../../components/styled_components';
 import Logo from '../../img/logo_SVG.svg';
 
-
-
 const NavWrapper = styled(WrapperDef)`
     flex-direction: row;
     align-items: flex-start;
@@ -68,49 +66,7 @@ const LogoIcon = styled.img `
 const Navbar = () => {
     return(
         <>
-              
-
-            <NavWrapper>
-            <LogoIcon src={Logo}/>
-                {/* <Ul>
-                    <Li>
-                        <Link href="#home">
-                            <Letter src={H} />
-                            <Name>ome</Name>
-                        </Link>
-                    </Li>
-                    <Li>
-                        <Link href="#intro">
-                            <Letter src={I} i/>
-                            <Name nfo>nfo</Name>
-                        </Link>
-                    </Li>
-                    <Li>
-                        <Link href="#works">
-                            <Letter src={W} w/>
-                            <Name>orks</Name>
-                        </Link>
-                    </Li>
-                    <Li>
-                        <Link href="#about">
-                            <Letter src={A} />
-                            <Name>bout</Name>
-                        </Link>
-                    </Li>
-                    <Li>
-                        <Link href="#coop">
-                            <Letter src={C} c/>
-                            <Name>oop</Name>
-                        </Link>
-                    </Li>
-                    <Li>
-                        <Link href="#contact">
-                            <Letter src={C} c/>
-                            <Name>ontact</Name>
-                        </Link>
-                    </Li>
-                </Ul> */}
-            </NavWrapper>
+        
         </>
     )
 }

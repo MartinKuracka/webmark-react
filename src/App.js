@@ -15,8 +15,6 @@ import ContactSection from './containers/contact_section/contact';
 import CoopSection from './containers/coop_section/coop';
 import Background from './img/hdr_background.svg';
 
-
-
 const Section = styled.div `
   position: relative;
   display: flex;
@@ -35,7 +33,6 @@ const Back = styled.img `
     overflow: hidden;
 `
 
-
 function App() {
   return (
     <div>
@@ -44,10 +41,10 @@ function App() {
       <Section id='home' home>
         <HeadSection />
       </Section>
-      <Section id='intro'>
+      {/* <Section id='intro'>
         <IntroLines />
         <IntroSection />
-      </Section>
+      </Section> */}
       {/* <Section id='works' works>
         <WorksLines />
         <WorksSection />

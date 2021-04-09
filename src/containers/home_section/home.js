@@ -9,8 +9,9 @@ const Wrapper = styled(WrapperDef)`
     justify-content: flex-start;
     width: 100%;
     height: 100%;
-    ${'' /* background: url(${Background}); */}
+    background: url(${Background});
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     overflow: visible;
 `
@@ -67,7 +68,7 @@ const Span = styled.span `
     letter-spacing: ${props => props.dots ? '-2px' : '-20px'};
 `
 const Back = styled.img `
-    position: absolute;
+    position: absolute;    
     width: auto;
     align-content: center;
     overflow: hidden;
@@ -76,7 +77,7 @@ const Back = styled.img `
 const HeadSection = () => {
     return(
         <>
-        <Back src={Background} />
+        {/* <Back src={Background} /> */}
         <Wrapper>
             <Container>
                 <Text><Span>W</Span>elcome To The</Text>
