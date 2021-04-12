@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 
 /* ./src/index.css */
 @tailwind base;
@@ -7,8 +6,8 @@
 @tailwind utilities;
 
 :root {
-  --primary: #ffffff;
-  --primary2: #464F41;
+  --primary: #464F41;
+  --primary2: #ffffff;
   --background: #D7D7D7;
   --box-color: #C4C4C4;
   --radius: 10px;
@@ -27,6 +26,7 @@ html {
 
 body {
   margin: 0;
+  width: 100vw;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,12 +35,7 @@ body {
 
 h1,h2,h3,h4,h5,h6,p {
   margin: 0px;
-  line-height:0.8;
   letter-spacing: -1px;
   color: var(--primary);
-}
-
-h2 {
-  font-family: 'Cinzel', serif;
 }
 
