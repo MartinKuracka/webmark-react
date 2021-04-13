@@ -3,6 +3,7 @@ import Logo from '../../img/logo_SVG.svg';
 import './navbar.css';
 // components
 import Hamburger from 'hamburger-react';
+import MobileMenu from '../mobilemenu/mobilemenu'
 
 const Navbar = () => {
 
@@ -10,15 +11,14 @@ const Navbar = () => {
     const [menuDisplayed, setMenu ] = useState(false);
 
     const handleMenu = () => {
-        console.log('clicked');
         setMenu(!menuDisplayed);
     }
 
     return(
-        <nav className='w-full h-14 bg-primary fixed flex justify-between p-2'>
-            <img src={Logo} className='h-6 my-auto' />
-            <h1 hidden={menuDisplayed}> Menu </h1>
-            <Hamburger className='my-auto' toggled={isOpen} toggle={setOpen} color="#ffffff" size={30} onToggle={() => handleMenu()}/>
+        <nav className='w-full h-14 bg-primary fixed flex justify-between '>
+            <img className='h-6 my-auto m-4' src={Logo} />
+            <MobileMenu menuDisplayed={menuDisplayed} />
+            <Hamburger toggled={isOpen} toggle={setOpen} color="#ffffff" size={30} onToggle={() => handleMenu()} label="Show menu"/>
         </nav>
     )
 }
