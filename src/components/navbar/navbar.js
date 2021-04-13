@@ -1,6 +1,6 @@
 import { useState } from 'react';
+// images
 import Logo from '../../img/logo_SVG.svg';
-import './navbar.css';
 // components
 import Hamburger from 'hamburger-react';
 import MobileMenu from '../mobilemenu/mobilemenu'
