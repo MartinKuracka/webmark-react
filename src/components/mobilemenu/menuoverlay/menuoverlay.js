@@ -3,34 +3,34 @@ const MenuOverlay = () => {
         <div className='fixed w-full h-full bg-gray-300 flex  justify-center bg-opacity-50'>
             <ul className='w-full '>
                 <label for='home'>
-                    <li className='h-1/6 bg-green-200 w-full flex justify-center items-center'>
-                        <a href='#home'>Home</a>
-                    </li>
+                    <a className='text-xl' href='#home'>
+                        <li className='h-1/6 bg-green-400 w-full flex justify-center items-center'>Home</li>
+                    </a>
                 </label>
                 <label for='info'>
-                    <li className='h-1/6 bg-green-300 w-full flex justify-center items-center'>
-                        <a href='#info'>Info</a>
-                    </li>
+                    <a className='text-xl' href='#info'>
+                        <li className='h-1/6 bg-green-500 w-full flex justify-center items-center'>Info</li>
+                    </a>
                 </label>
                 <label for='works'>
-                    <li className='h-1/6 bg-green-400 w-full flex justify-center items-center'>
-                        <a href='#works'>Works</a>
-                    </li>
+                    <a className='text-xl' href='#works'>
+                        <li className='h-1/6 bg-green-600 w-full flex justify-center items-center'>Works</li>
+                    </a>
                 </label>
                 <label for='about'>
-                    <li className='h-1/6 bg-green-500 w-full flex justify-center items-center'>
-                        <a href='#about'>About</a>
-                    </li>
+                    <a className='text-xl' href='#about'>
+                        <li className='h-1/6 bg-green-700 w-full flex justify-center items-center'>About</li>
+                    </a>
                 </label>
                 <label for='coop'>
-                    <li className='h-1/6 bg-green-600 w-full flex justify-center items-center'>
-                        <a href='#coop'>Coop</a>
-                    </li>
+                    <a className='text-xl' href='#coop'>
+                        <li className='h-1/6 bg-green-800 w-full flex justify-center items-center'>Coop</li>
+                    </a>
                 </label>
                 <label for='contact'>
-                    <li className='h-1/6 bg-green-700 w-full flex justify-center items-center'>
-                        <a href='#contact'>Contact</a>
-                    </li>
+                    <a className='text-xl' href='#contact'>
+                        <li className='h-1/6 bg-green-900 w-full flex justify-center items-center'>Contact</li>
+                    </a>
                 </label>
             </ul>
         </div>
