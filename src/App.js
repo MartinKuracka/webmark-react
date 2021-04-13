@@ -1,10 +1,10 @@
 // components
-import Navbar from './components/navbar/navbar'
+import MobileNavbar from './components/navbar/mobilenavbar'
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <MobileNavbar />
     </div>
   );
 }
