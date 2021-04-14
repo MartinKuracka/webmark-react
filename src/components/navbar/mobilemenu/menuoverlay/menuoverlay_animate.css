@@ -1,0 +1,43 @@
+@keyframes comein {
+    from {
+        right: -100vw;
+    }
+    to {
+        right: 0;
+    }
+}
+
+.animateHome {
+    animation-name: comein;
+    animation-duration: 1s;
+}
+
+.animateIntro {
+    animation-name: comein;
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+}
+
+.animateWorks {
+    animation-name: comein;
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+}
+
+.animateAbout {
+    animation-name: comein;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+}
+
+.animateCoop {
+    animation-name: comein;
+    animation-duration: 0.5s;
+    animation-delay: 0.4s;
+}
+
+.animateContact {
+    animation-name: comein;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+}

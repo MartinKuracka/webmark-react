@@ -1,15 +1,17 @@
+import './menuoverlay_animate.css';
+
 const MenuOverlay = ({handleMenu}) => {
     return(
-        <div className='fixed w-full h-full bg-gray-300 flex  justify-center bg-opacity-50'>
+        <div className='fixed w-full h-full bg-gray-300 flex  justify-center bg-opacity-50 animateHome'>
             <ul className='w-full '>
-                <label for='home'>
-                    <a className='text-xl' href='#home' onClick={() => handleMenu()}>
-                        <li className='h-1/6 bg-green-400 w-full flex justify-center items-center'>Home</li>
+                <label  for='home'>
+                    <a className='text-xl ' href='#home' onClick={() => handleMenu()}>
+                        <li className='h-1/6 bg-green-400 w-full flex justify-center items-center '>Home</li>
                     </a>
                 </label>
-                <label for='info'>
-                    <a className='text-xl' href='#info' onClick={() => handleMenu()}>
-                        <li className='h-1/6 bg-green-500 w-full flex justify-center items-center'>Info</li>
+                <label for='intro'>
+                    <a className='text-xl animateIntro' href='#intro' onClick={() => handleMenu()}>
+                        <li className='h-1/6 bg-green-500 w-full flex justify-center items-center'>Intro</li>
                     </a>
                 </label>
                 <label for='works'>
