@@ -1,11 +1,7 @@
-import styled from 'styled-components';
-import {WrapperDef, TextDef} from '../../components/styled_components'
-
-
 const ContactSection = () => {
     return(
-        <div>
-            Contact
+        <div className='flex w-full h-screen justify-center items-center bg-yellow-300' id='contact'>
+            <h1>Contact Section</h1>
         </div>
     )
 }

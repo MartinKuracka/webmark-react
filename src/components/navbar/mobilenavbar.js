@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Logo from '../../img/logo_SVG.svg';
 // components
 import Hamburger from 'hamburger-react';
-import MobileMenu from '../mobilemenu/mobilemenu'
+import MobileMenu from './mobilemenu/mobilemenu'
 
 const MobileNavbar = () => {
 

@@ -1,9 +1,8 @@
 
-
 const AboutSection = () => {
     return(
-        <dvi>
-            About
+        <div className='flex w-full h-screen justify-center items-center bg-green-300' id='about'>
+            <h1>About Section</h1>
         </div>
     )
 }

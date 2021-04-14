@@ -1,8 +1,8 @@
 
 const HeadSection = () => {
     return(
-        <div>
-            Head
+        <div className='flex w-full h-screen justify-center items-center' id='home'>
+            <h1>Head Section</h1>
         </div>
     )
 }
