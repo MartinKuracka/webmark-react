@@ -1,5 +1,5 @@
 // components
-import MobileNavbar from './components/navbar/mobilenavbar';
+import MobileNavbar from './containers/navbar/mobilenavbar';
 import HeadSection from './containers/home_section/home';
 import IntroSection from './containers/intro_section/intro';
 import WorksSection from './containers/works_section/works';
