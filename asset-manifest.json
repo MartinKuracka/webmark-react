@@ -1,41 +1,22 @@
 {
   "files": {
-    "main.css": "/webmark-react/static/css/main.62bc9bca.chunk.css",
-    "main.js": "/webmark-react/static/js/main.144ebf74.chunk.js",
-    "main.js.map": "/webmark-react/static/js/main.144ebf74.chunk.js.map",
+    "main.css": "/webmark-react/static/css/main.ad7f1139.chunk.css",
+    "main.js": "/webmark-react/static/js/main.0630625f.chunk.js",
+    "main.js.map": "/webmark-react/static/js/main.0630625f.chunk.js.map",
     "runtime-main.js": "/webmark-react/static/js/runtime-main.28dd4e0f.js",
     "runtime-main.js.map": "/webmark-react/static/js/runtime-main.28dd4e0f.js.map",
-    "static/css/2.8e594edb.chunk.css": "/webmark-react/static/css/2.8e594edb.chunk.css",
-    "static/js/2.073c9972.chunk.js": "/webmark-react/static/js/2.073c9972.chunk.js",
-    "static/js/2.073c9972.chunk.js.map": "/webmark-react/static/js/2.073c9972.chunk.js.map",
+    "static/js/2.555d1440.chunk.js": "/webmark-react/static/js/2.555d1440.chunk.js",
+    "static/js/2.555d1440.chunk.js.map": "/webmark-react/static/js/2.555d1440.chunk.js.map",
     "index.html": "/webmark-react/index.html",
-    "static/css/2.8e594edb.chunk.css.map": "/webmark-react/static/css/2.8e594edb.chunk.css.map",
-    "static/css/main.62bc9bca.chunk.css.map": "/webmark-react/static/css/main.62bc9bca.chunk.css.map",
-    "static/js/2.073c9972.chunk.js.LICENSE.txt": "/webmark-react/static/js/2.073c9972.chunk.js.LICENSE.txt",
-    "static/media/Coop Background.04b0b8bd.svg": "/webmark-react/static/media/Coop Background.04b0b8bd.svg",
-    "static/media/Thumb_apps.841c48bc.jpg": "/webmark-react/static/media/Thumb_apps.841c48bc.jpg",
-    "static/media/blob_about.67d67ac0.svg": "/webmark-react/static/media/blob_about.67d67ac0.svg",
-    "static/media/blob_intro.e6ff9e9b.svg": "/webmark-react/static/media/blob_intro.e6ff9e9b.svg",
-    "static/media/blob_works.dc97b619.svg": "/webmark-react/static/media/blob_works.dc97b619.svg",
-    "static/media/blobs_header.203a3a51.svg": "/webmark-react/static/media/blobs_header.203a3a51.svg",
-    "static/media/close.c03cc9f0.svg": "/webmark-react/static/media/close.c03cc9f0.svg",
-    "static/media/face_BW2.ac9f8049.PNG": "/webmark-react/static/media/face_BW2.ac9f8049.PNG",
-    "static/media/intro1.85fabc39.svg": "/webmark-react/static/media/intro1.85fabc39.svg",
-    "static/media/intro2.f5bb97b5.svg": "/webmark-react/static/media/intro2.f5bb97b5.svg",
-    "static/media/logo_SVG.edf02bf4.svg": "/webmark-react/static/media/logo_SVG.edf02bf4.svg",
-    "static/media/slick-theme.css": "/webmark-react/static/media/slick.c94f7671.ttf",
-    "static/media/svgback_header.9d304e93.svg": "/webmark-react/static/media/svgback_header.9d304e93.svg",
-    "static/media/undraw1.dd6c1407.svg": "/webmark-react/static/media/undraw1.dd6c1407.svg",
-    "static/media/undraw2.176ae489.svg": "/webmark-react/static/media/undraw2.176ae489.svg",
-    "static/media/undraw3.c454cc2b.svg": "/webmark-react/static/media/undraw3.c454cc2b.svg",
-    "static/media/web_design.d82234b4.png": "/webmark-react/static/media/web_design.d82234b4.png",
-    "static/media/works-blob2.1bf71f9b.svg": "/webmark-react/static/media/works-blob2.1bf71f9b.svg"
+    "static/css/main.ad7f1139.chunk.css.map": "/webmark-react/static/css/main.ad7f1139.chunk.css.map",
+    "static/js/2.555d1440.chunk.js.LICENSE.txt": "/webmark-react/static/js/2.555d1440.chunk.js.LICENSE.txt",
+    "static/media/hdr_background.a27fc5d5.svg": "/webmark-react/static/media/hdr_background.a27fc5d5.svg",
+    "static/media/logo_SVG.cf58b9fd.svg": "/webmark-react/static/media/logo_SVG.cf58b9fd.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.28dd4e0f.js",
-    "static/css/2.8e594edb.chunk.css",
-    "static/js/2.073c9972.chunk.js",
-    "static/css/main.62bc9bca.chunk.css",
-    "static/js/main.144ebf74.chunk.js"
+    "static/js/2.555d1440.chunk.js",
+    "static/css/main.ad7f1139.chunk.css",
+    "static/js/main.0630625f.chunk.js"
   ]
 }
