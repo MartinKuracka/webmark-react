@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/webmark-react/static/css/main.2b87654f.chunk.css",
-    "main.js": "/webmark-react/static/js/main.2b2801a5.chunk.js",
-    "main.js.map": "/webmark-react/static/js/main.2b2801a5.chunk.js.map",
+    "main.css": "/webmark-react/static/css/main.3ef8e319.chunk.css",
+    "main.js": "/webmark-react/static/js/main.d80e9c3f.chunk.js",
+    "main.js.map": "/webmark-react/static/js/main.d80e9c3f.chunk.js.map",
     "runtime-main.js": "/webmark-react/static/js/runtime-main.28dd4e0f.js",
     "runtime-main.js.map": "/webmark-react/static/js/runtime-main.28dd4e0f.js.map",
     "static/js/2.555d1440.chunk.js": "/webmark-react/static/js/2.555d1440.chunk.js",
     "static/js/2.555d1440.chunk.js.map": "/webmark-react/static/js/2.555d1440.chunk.js.map",
     "index.html": "/webmark-react/index.html",
-    "static/css/main.2b87654f.chunk.css.map": "/webmark-react/static/css/main.2b87654f.chunk.css.map",
+    "static/css/main.3ef8e319.chunk.css.map": "/webmark-react/static/css/main.3ef8e319.chunk.css.map",
     "static/js/2.555d1440.chunk.js.LICENSE.txt": "/webmark-react/static/js/2.555d1440.chunk.js.LICENSE.txt",
     "static/media/Web Design.119a1668.svg": "/webmark-react/static/media/Web Design.119a1668.svg",
     "static/media/index.css": "/webmark-react/static/media/hdr_background.a27fc5d5.svg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.28dd4e0f.js",
     "static/js/2.555d1440.chunk.js",
-    "static/css/main.2b87654f.chunk.css",
-    "static/js/main.2b2801a5.chunk.js"
+    "static/css/main.3ef8e319.chunk.css",
+    "static/js/main.d80e9c3f.chunk.js"
   ]
 }
