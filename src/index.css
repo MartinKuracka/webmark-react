@@ -39,3 +39,21 @@ h1,h2,h3,h4,h5,h6,p,a {
   color: var(--primary2);
 }
 
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 0.7;
+  letter-spacing: -5px;
+}
+
+span {
+  letter-spacing: -10px;
+  line-height: 0.5;
+  margin: 0px;
+  font-size: 5.5rem;
+}
+
+.bg-headerImg {
+  background-image: url('./img/hdr_background.svg');
+  background-size: cover;
+}

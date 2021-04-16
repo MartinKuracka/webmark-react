@@ -9,6 +9,12 @@ module.exports = {
         'secondary': '#ffffff',
         'danger': '#e3342f',
        }),
+       textColor: theme => ({
+        ...theme('colors'),
+        'primary': '#464F41',
+        'secondary': '#ffffff',
+        'danger': '#e3342f',
+       }),
     },
     variants: {
       extend: {},
