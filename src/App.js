@@ -1,5 +1,6 @@
 // components
 import MobileNavbar from './containers/navbar/mobilenavbar';
+import DesktopNavbar from './containers/navbar/desktopnavbar';
 import HeadSection from './containers/home_section/home';
 import IntroSection from './containers/intro_section/intro';
 import WorksSection from './containers/works_section/works';
@@ -10,8 +11,8 @@ import ContactSection from  './containers/contact_section/contact';
 
 function App() {
   return (
-    <div>
-      {/* <DesktopNavbar /> */}
+    <div >
+      <DesktopNavbar />
       <MobileNavbar />
       <HeadSection />
       <IntroSection />
