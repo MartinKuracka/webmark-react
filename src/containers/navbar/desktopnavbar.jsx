@@ -13,19 +13,19 @@ const DesktopNavbar = () => {
                     <label className='my-auto text-white '>
                         <a className='text-xl  ' href='#home' >Home</a>
                     </label>
-                    <label className='my-auto text-white ml-8'>
+                    <label className='my-auto text-white ml-10'>
                         <a className='text-xl  ' href='#intro' >Intro</a>
                     </label>
-                    <label className='my-auto text-white ml-8'>
+                    <label className='my-auto text-white ml-10'>
                         <a className='text-xl  ' href='#works' >Works</a>
                     </label>
-                    <label className='my-auto text-white ml-8'>
+                    <label className='my-auto text-white ml-10'>
                         <a className='text-xl  ' href='#about' >About</a>
                     </label>
-                    <label className='my-auto text-white ml-8'>
+                    <label className='my-auto text-white ml-10'>
                         <a className='text-xl  ' href='#coop' >Coop</a>
                     </label>
-                    <label className='my-auto text-white ml-8'>
+                    <label className='my-auto text-white ml-10'>
                         <a className='text-xl  ' href='#contact' >Contact</a>
                     </label>
                 </div>
