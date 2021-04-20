@@ -31,7 +31,7 @@ const WorksSection = () => {
                     <h1 className='mt-20 text-background'>Works </h1>
                 </div>
             </div>
-            <div className='bg-background h-3/4 border-4 border-primary'>
+            <div className='bg-background h-3/4'>
                     <SliderContent />
             </div>
         </section>
