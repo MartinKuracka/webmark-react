@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/webmark-react/static/css/main.28d3d329.chunk.css",
-    "main.js": "/webmark-react/static/js/main.16f0cad7.chunk.js",
-    "main.js.map": "/webmark-react/static/js/main.16f0cad7.chunk.js.map",
+    "main.js": "/webmark-react/static/js/main.538acf76.chunk.js",
+    "main.js.map": "/webmark-react/static/js/main.538acf76.chunk.js.map",
     "runtime-main.js": "/webmark-react/static/js/runtime-main.28dd4e0f.js",
     "runtime-main.js.map": "/webmark-react/static/js/runtime-main.28dd4e0f.js.map",
     "static/css/2.ecb9f06d.chunk.css": "/webmark-react/static/css/2.ecb9f06d.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.ecb9f06d.chunk.css",
     "static/js/2.ce0c3dfd.chunk.js",
     "static/css/main.28d3d329.chunk.css",
-    "static/js/main.16f0cad7.chunk.js"
+    "static/js/main.538acf76.chunk.js"
   ]
 }
