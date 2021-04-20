@@ -8,7 +8,7 @@ import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const MainWorksMenu = ({setContent, setContentType}) => {
-    
+
     var settings = {
         dots: true,
         infinite: true,
@@ -28,31 +28,29 @@ const MainWorksMenu = ({setContent, setContentType}) => {
     }
 
     return(
-        <>
         <Slider {...settings} className=''>
             <div className='p-5'>
-                <img className='mx-auto' src={Slide1} />
-                <div clasName='flex flex-col'>
+                <img className='mx-auto' src={Slide1} alt='slide' />
+                <div className='flex flex-col'>
                     <h2 className='text-primary underline font-bold my-3' title='webs' onClick={handleOnclick}>Website projects</h2>
                     <p className='text-primary mx-auto'>Full Website project that I have worked on since 2020 </p>
                 </div>
             </div>
             <div className='p-5'>
-                <img className='mx-auto' src={Slide2} />
-                <div clasName='flex flex-col'>
+                <img className='mx-auto' src={Slide2} alt='slide' />
+                <div className='flex flex-col'>
                     <h2 className='text-primary underline font-bold my-3' title='components'onClick={handleOnclick}>App Components</h2>
                     <p className='text-primary mx-auto'>Different types of page components that can be re-used in Web projects </p>
                 </div>
             </div>
             <div className='p-5'>
-                <img className='mx-auto' src={Slide3} />
-                <div clasName='flex flex-col'>
+                <img className='mx-auto' src={Slide3} alt='slide' />
+                <div className='flex flex-col'>
                     <h2 className='text-primary underline font-bold my-3' title='templates' onClick={handleOnclick}>Demo templates</h2>
                     <p className='text-primary mx-auto'>Here You will find demo projects that showcase communications with API, databases, Password encryption and more... </p>
                 </div>
             </div>
         </Slider>
-        </>
     )
 }
 

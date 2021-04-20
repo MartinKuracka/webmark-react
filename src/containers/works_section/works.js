@@ -3,8 +3,7 @@ import { useState } from 'react';
 import MainWorksMenu from './main_work_menu/main_works_menu';
 import ContentSlider from './content_slider/content_slider';
 // Css
-import './works.css'
-
+import './works.css';
 
 const WorksSection = () => {
 

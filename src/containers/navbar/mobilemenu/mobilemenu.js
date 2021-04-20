@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import MenuOverlay from './menuoverlay/menuoverlay'
 
 const MobileMenu = ({menuDisplayed, handleMenu}) => {
