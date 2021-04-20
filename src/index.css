@@ -52,8 +52,3 @@ span {
   margin: 0px;
   font-size: 4.7rem;
 }
-
-.bg-headerImg {
-  background-image: url('./img/hdr_background.svg');
-  background-size: cover;
-}
