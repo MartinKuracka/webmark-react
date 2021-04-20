@@ -1,5 +1,7 @@
 // Images
-import Slide1 from '../../img/Thumb_apps.jpg'
+import Slide1 from '../../img/Thumb_websites.jpg';
+import Slide2 from '../../img/Thumb_apps.jpg';
+import Slide3 from '../../img/Thumb_comp.jpg';
 // Slider
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
@@ -20,6 +22,10 @@ const WorksSection = () => {
         centerPadding: '0px',
     };
 
+    const handleOnclick = (e) => {
+        console.log(e.target.title)
+    }
+
     return(
         <section className='flex w-11/12 h-screen flex-col mx-auto' id='works'>
             <div className='flex justify-center'>
@@ -31,17 +37,27 @@ const WorksSection = () => {
                 <Slider {...settings} className=''>
                     <div className='p-5'>
                         <img className='mx-auto' src={Slide1} />
-                        <p className='text-black w-10/12 mx-auto'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>                    
+                        <div clasName='flex flex-col'>
+                            <h2 className='text-primary underline font-bold my-3' title='webs' onClick={handleOnclick}>Website projects</h2>
+                            <p className='text-primary mx-auto'>Full Website project that I have worked on since 2020 </p>
+                        </div>
                     </div>
                     <div className='p-5'>
-                        <img className='' src={Slide1} />  
+                        <img className='mx-auto' src={Slide2} />
+                        <div clasName='flex flex-col'>
+                            <h2 className='text-primary underline font-bold my-3' title='components'onClick={handleOnclick}>App Components</h2>
+                            <p className='text-primary mx-auto'>Different types of page components that can be re-used in Web projects </p>
+                        </div>
                     </div>
                     <div className='p-5'>
-                        <img className='' src={Slide1} />  
-                    </div>               
+                        <img className='mx-auto' src={Slide3} />
+                        <div clasName='flex flex-col'>
+                            <h2 className='text-primary underline font-bold my-3' title='templates' onClick={handleOnclick}>Demo templates</h2>
+                            <p className='text-primary mx-auto'>Here You will find demo projects that showcase communications with API, databases, Password encryption and more... </p>
+                        </div>
+                    </div>
                 </Slider>
             </div>
-
         </section>
     )
 }
