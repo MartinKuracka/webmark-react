@@ -26,13 +26,15 @@ const Webs = ({setContent}) => {
     return (
         <Slider {...settings} className=''>
             {/* Slide 1 */}
-            <div className='p-5'>
+            <div className='p-5 h-full'>
                 <img className='mx-auto' src={Srdcofka} />
-                <div clasName='flex flex-col'>
-                    <h2 className='text-primary font-bold mt-3' title='srdcofka' href='https://www.srdcofka.sk' target='_blank' >Srdcofka.sk</h2>
-                    <p className='text-primary mx-auto '>Local healthy food store webpage </p>
-                    <h2 className='text-primary font-bold mt-4'>Technology used</h2>
-                    <p className='text-primary mx-auto '>HTML, CSS, JS, Animations, Adobe Photoshop </p>
+                <div clasName='flex flex-col justify-between h-full'>
+                    <div className='flex flex-col '>
+                        <h2 className='text-primary font-bold mt-3' title='srdcofka' href='https://www.srdcofka.sk' target='_blank' >Srdcofka.sk</h2>
+                        <p className='text-primary'>Local healthy food store webpage </p>
+                        <h2 className='text-primary font-bold mt-4'>Technology used</h2>
+                        <p className='text-primary'>HTML, CSS, JS, Animations, Adobe Photoshop </p>
+                    </div>
                     <div className='mt-5 flex justify-between'>
                         <Button back onClick={() => setContent('main')}>BACK</Button>
                         <a href='http://www.srdcofka.sk' target='_blank'>
@@ -47,11 +49,13 @@ const Webs = ({setContent}) => {
             {/* Slide 2 */}
             <div className='p-5'>
                 <img className='mx-auto' src={Luna} />
-                <div clasName='flex flex-col'>
-                    <h2 className='text-primary font-bold mt-3' title='srdcofka' href='https://www.srdcofka.sk' target='_blank' >Svieckaluna.sk</h2>
-                    <p className='text-primary mx-auto '>Single page Website to promote a product</p>
-                    <h2 className='text-primary font-bold mt-4'>Technology used</h2>
-                    <p className='text-primary mx-auto '>Wordpress, Elementor, Adobe Photoshop </p>
+                <div clasName='flex flex-col justify-between h-52'>
+                    <div className='flex flex-col '>
+                        <h2 className='text-primary font-bold mt-3' title='srdcofka' href='https://www.srdcofka.sk' target='_blank' >Svieckaluna.sk</h2>
+                        <p className='text-primary'>Single page Website to promote a product</p>
+                        <h2 className='text-primary font-bold mt-4'>Technology used</h2>
+                        <p className='text-primary'>Wordpress, Elementor, Adobe Photoshop, SEO </p>
+                    </div>
                     <div className='mt-5 flex justify-between'>
                         <Button back onClick={() => setContent('main')}>BACK</Button>
                         <a href='http://www.svieckaluna.sk' target='_blank'>

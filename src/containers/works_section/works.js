@@ -28,10 +28,10 @@ const WorksSection = () => {
         <section className='flex w-11/12 h-screen flex-col mx-auto' id='works'>
             <div className='flex justify-center'>
                 <div className='flex w-full justify-start'>
-                    <h1 className='mt-32 text-background'>Works </h1>
+                    <h1 className='mt-20 text-background'>Works </h1>
                 </div>
             </div>
-            <div className='bg-background'>
+            <div className='bg-background h-3/4'>
                     <SliderContent />
             </div>
         </section>
