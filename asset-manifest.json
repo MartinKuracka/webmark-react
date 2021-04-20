@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/webmark-react/static/css/main.d39193f7.chunk.css",
-    "main.js": "/webmark-react/static/js/main.232b6710.chunk.js",
-    "main.js.map": "/webmark-react/static/js/main.232b6710.chunk.js.map",
+    "main.css": "/webmark-react/static/css/main.28d3d329.chunk.css",
+    "main.js": "/webmark-react/static/js/main.16f0cad7.chunk.js",
+    "main.js.map": "/webmark-react/static/js/main.16f0cad7.chunk.js.map",
     "runtime-main.js": "/webmark-react/static/js/runtime-main.28dd4e0f.js",
     "runtime-main.js.map": "/webmark-react/static/js/runtime-main.28dd4e0f.js.map",
     "static/css/2.ecb9f06d.chunk.css": "/webmark-react/static/css/2.ecb9f06d.chunk.css",
-    "static/js/2.d53f3d94.chunk.js": "/webmark-react/static/js/2.d53f3d94.chunk.js",
-    "static/js/2.d53f3d94.chunk.js.map": "/webmark-react/static/js/2.d53f3d94.chunk.js.map",
+    "static/js/2.ce0c3dfd.chunk.js": "/webmark-react/static/js/2.ce0c3dfd.chunk.js",
+    "static/js/2.ce0c3dfd.chunk.js.map": "/webmark-react/static/js/2.ce0c3dfd.chunk.js.map",
     "index.html": "/webmark-react/index.html",
     "static/css/2.ecb9f06d.chunk.css.map": "/webmark-react/static/css/2.ecb9f06d.chunk.css.map",
-    "static/css/main.d39193f7.chunk.css.map": "/webmark-react/static/css/main.d39193f7.chunk.css.map",
-    "static/js/2.d53f3d94.chunk.js.LICENSE.txt": "/webmark-react/static/js/2.d53f3d94.chunk.js.LICENSE.txt",
+    "static/css/main.28d3d329.chunk.css.map": "/webmark-react/static/css/main.28d3d329.chunk.css.map",
+    "static/js/2.ce0c3dfd.chunk.js.LICENSE.txt": "/webmark-react/static/js/2.ce0c3dfd.chunk.js.LICENSE.txt",
     "static/media/Thumb_apps.b3848368.jpg": "/webmark-react/static/media/Thumb_apps.b3848368.jpg",
     "static/media/Thumb_comp.73bfb91a.jpg": "/webmark-react/static/media/Thumb_comp.73bfb91a.jpg",
     "static/media/Thumb_websites.26f571fd.jpg": "/webmark-react/static/media/Thumb_websites.26f571fd.jpg",
@@ -19,15 +19,17 @@
     "static/media/home.css": "/webmark-react/static/media/hdr_background.a27fc5d5.svg",
     "static/media/hdr_image.37087305.svg": "/webmark-react/static/media/hdr_image.37087305.svg",
     "static/media/logo_SVG.cf58b9fd.svg": "/webmark-react/static/media/logo_SVG.cf58b9fd.svg",
+    "static/media/luna.384b12e5.jpg": "/webmark-react/static/media/luna.384b12e5.jpg",
     "static/media/slick-theme.css": "/webmark-react/static/media/slick.c94f7671.ttf",
+    "static/media/srdcofka.9511fe99.jpg": "/webmark-react/static/media/srdcofka.9511fe99.jpg",
     "static/media/undraw_escaping_my1b.0358459a.svg": "/webmark-react/static/media/undraw_escaping_my1b.0358459a.svg",
     "static/media/undraw_progressive_app_m9ms.552c1a2c.svg": "/webmark-react/static/media/undraw_progressive_app_m9ms.552c1a2c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.28dd4e0f.js",
     "static/css/2.ecb9f06d.chunk.css",
-    "static/js/2.d53f3d94.chunk.js",
-    "static/css/main.d39193f7.chunk.css",
-    "static/js/main.232b6710.chunk.js"
+    "static/js/2.ce0c3dfd.chunk.js",
+    "static/css/main.28d3d329.chunk.css",
+    "static/js/main.16f0cad7.chunk.js"
   ]
 }
