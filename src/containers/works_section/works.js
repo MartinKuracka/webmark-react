@@ -2,6 +2,8 @@ import { useState } from 'react';
 // Components
 import MainWorksMenu from './main_work_menu/main_works_menu';
 import ContentSlider from './content_slider/content_slider';
+// Css
+import './works.css'
 
 
 const WorksSection = () => {
@@ -25,6 +27,7 @@ const WorksSection = () => {
     }
 
     return(
+        <div className='w-full h-screen bg-works mt-44'>
         <section className='flex w-11/12 h-screen flex-col mx-auto' id='works'>
             <div className='flex justify-center'>
                 <div className='flex w-full justify-start'>
@@ -35,6 +38,7 @@ const WorksSection = () => {
                     <SliderContent />
             </div>
         </section>
+        </div>
     )
 }
 
