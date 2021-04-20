@@ -9,15 +9,15 @@ import './home.css'
 const HeadSection = () => {
     return(
         <>
-        <section className='flex w-full flex-col bg-headerImg bg-scroll items-center image' id='home'>
+        <section className='flex w-full flex-col bg-headerImg items-center image' id='home'>
             <div className='w-11/12'>
                 <h1 className='text-3xl font-light  mt-24'><span className='text-primary font-extrabold'>W</span>elcome To The</h1>
                 <h1 className='text-5xl'><span className='text-primary font-extrabold'>W</span>ebMark</h1>
                 <img className='-mt-3 w-96' src={Webmark} alt={Webmark}/>
                 <img className='mt-5' src={Hero} alt='hero' />
                 <div className='mt-24 mb-20' id='intro'>
-                    <div className='pt-10 w-full'>
-                        <h2 className='text-white font-semibold underline text-xl mt-20'>Delivering Experience</h2>
+                    <div className='pt-2 w-full'>
+                        <h2 className='text-white font-semibold underline text-xl mt-14'>Delivering Experience</h2>
                         <p className='mt-3 z-10'>Using latest technologies and trends to deliver more than just a Website</p>                        
                     </div>
                     <div className='w-full flex justify-end mt-5'> 
@@ -29,7 +29,7 @@ const HeadSection = () => {
                 <div>
                     <div className='w-full text-right'>
                         <h2 className='text-white font-semibold underline text-xl mt-20'>Beautifull and Responsive</h2>
-                        <p className='mt-3 z-10'>Wherever Your customers wish to browse - Mobile, Desktop or Tablet - product always looks great and responsive</p>
+                        <p className='mt-3 z-10'>Wherever Your customers will browse - Mobile, Desktop or Tablet - product always looks great and responsive</p>
                     </div>
                     <div className='w-full flex justify-start mt-5'> 
                         <span className='absolute font-extrabold italic text-primary mt-2 text-6xl'>EVERY</span>

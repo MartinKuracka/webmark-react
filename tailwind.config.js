@@ -17,6 +17,7 @@ module.exports = {
         'primary2': '#BFCBA8',
         'secondary': '#ffffff',
         'danger': '#e3342f',
+        'background': '#EEEDED',
        }),
     },
     variants: {
