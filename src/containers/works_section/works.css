@@ -1,0 +1,7 @@
+.bg-works {
+    background-image: url('../../img/works-blob2.svg');
+    background-position: bottom;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 180%;
+}

@@ -16,7 +16,9 @@ const ContentSlider = () => {
             case 'components': 
                 return <Components />;
             case 'templates':
-                return <Templates />
+                return <Templates />;
+            default:
+                return null
         }
     }
     return (

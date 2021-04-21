@@ -5,7 +5,6 @@ import ContentSlider from './content_slider/content_slider';
 // Context API
 import { WorksContext } from '../../state_context/state_context';
 
-
 const WorksSection = () => {
 
     const [workscontent, setContent] = useState('main');
@@ -27,10 +26,11 @@ const WorksSection = () => {
     }
 
     return(
+        <div className='w-full h-screen bg-works mt-44'>
         <section className='flex w-11/12 h-screen flex-col mx-auto' id='works'>
             <div className='flex justify-center'>
                 <div className='flex w-full justify-start'>
-                    <h1 className='mt-32 text-background'>Works </h1>
+                    <h1 className='mt-20 text-background'>Works </h1>
                 </div>
             </div>
             <div className='bg-background'>
@@ -39,6 +39,7 @@ const WorksSection = () => {
                 </WorksContext.Provider>
             </div>
         </section>
+        </div>
     )
 }
 
