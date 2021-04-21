@@ -1,5 +1,5 @@
 // Images
-import Slide1 from '../../../img/Thumb_websites.jpg';
+import Slide1 from '../../../img/Thumb_websites2.jpg';
 import Slide2 from '../../../img/Thumb_apps.jpg';
 import Slide3 from '../../../img/Thumb_comp.jpg';
 // Slider
