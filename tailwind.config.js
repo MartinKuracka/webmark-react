@@ -26,7 +26,15 @@ module.exports = {
         'secondary': '#ffffff',
         'danger': '#e3342f',
         'background': '#EEEDED',
-       })
+       }),
+       minHeight: {
+        '0': '0',
+        '1/4': '25%',
+        '1/2': '50%',
+        '3/4': '75%',
+        '4/5': '86%',
+        'full': '100%',
+       }
     },
     variants: {
       extend: {},
