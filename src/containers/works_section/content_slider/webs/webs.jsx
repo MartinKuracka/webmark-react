@@ -7,8 +7,13 @@ import Srdcofka from '../../../../img/srdcofka.jpg';
 import Luna from '../../../../img/luna.jpg'
 // Styled components
 import {Button} from '../../../../components/styled_components';
+// Context API
+import { WorksContext } from '../../../../state_context/state_context';
+import { useContext } from 'react';
 
-const Webs = ({setContent}) => {
+const Webs = () => {
+
+    const {setContent} = useContext(WorksContext);
 
     var settings = {
         dots: true,

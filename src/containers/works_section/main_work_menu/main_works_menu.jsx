@@ -6,9 +6,14 @@ import Slide3 from '../../../img/Thumb_comp.jpg';
 import "../../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+// Context API
+import { WorksContext } from '../../../state_context/state_context';
+import { useContext } from 'react';
 
-const MainWorksMenu = ({setContent, setContentType}) => {
+const MainWorksMenu = () => {
     
+    const {setContent, setContentType} = useContext(WorksContext);
+
     var settings = {
         dots: true,
         infinite: true,

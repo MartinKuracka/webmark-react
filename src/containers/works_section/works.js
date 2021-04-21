@@ -2,6 +2,8 @@ import { useState } from 'react';
 // Components
 import MainWorksMenu from './main_work_menu/main_works_menu';
 import ContentSlider from './content_slider/content_slider';
+// Context API
+import { WorksContext } from '../../state_context/state_context';
 
 
 const WorksSection = () => {
@@ -13,11 +15,11 @@ const WorksSection = () => {
         switch(workscontent) {
             case 'main':
                 return (
-                    <MainWorksMenu setContent={setContent} setContentType={setContentType}/>
+                    <MainWorksMenu />
                 )
             case 'content':
                 return (
-                    <ContentSlider contenttype={contenttype} setContent={setContent}/>
+                    <ContentSlider />
                 )
             default:
                 return null
@@ -32,7 +34,9 @@ const WorksSection = () => {
                 </div>
             </div>
             <div className='bg-background'>
+                <WorksContext.Provider value={{setContent, setContentType, contenttype}}>
                     <SliderContent />
+                </WorksContext.Provider>
             </div>
         </section>
     )
