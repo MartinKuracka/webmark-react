@@ -45,9 +45,6 @@ const Webs = () => {
                         <a href='http://www.srdcofka.sk' target='_blank' rel="noreferrer">
                             <Button >LIVE</Button>
                         </a>
-                        <a href='http://www.srdcofka.sk' target='_blank' rel="noreferrer">
-                            <Button>CODE</Button>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -65,9 +62,6 @@ const Webs = () => {
                         <Button back onClick={() => setContent('main')}>BACK</Button>
                         <a href='http://www.svieckaluna.sk' target='_blank' rel="noreferrer">
                             <Button >LIVE</Button>
-                        </a>
-                        <a href='http://www.svieckaluna.sk' target='_blank' rel="noreferrer">
-                            <Button>CODE</Button>
                         </a>
                     </div>
                 </div>

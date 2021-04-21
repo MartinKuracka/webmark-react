@@ -18,23 +18,23 @@ const HeadSection = () => {
                 <div id='intro'>
                     <div className='pt-20 w-full my-32'>
                         <h2 className='text-white font-semibold underline text-xl'>Delivering Experience</h2>
-                        <p className='mt-3 z-10'>Using latest technologies and trends to deliver more than just a Website</p>
+                        <p className='mt-3 z-10'>I am Using latest technologies and trends in all of my projects to deliver more than just a Website. I strive to deliver smooth and enjoyable user experience</p>
                     </div>
-                    <div className='w-full flex justify-end mt-5'>
-                        <span className='absolute font-extrabold italic text-primary mr-36 -mt-7 text-8xl'>X</span>
-                        <span className='absolute font-semibold text-4xl tracking-tighter mt-5 right-6 italic text-white'>perience</span>
-                        <img className='mt-14 mx-auto' src={Experience} alt='experence' />
+                    <div className='w-full flex justify-end'>
+                        <span className='absolute font-extrabold italic text-primary mr-36 -mt-16 text-8xl'>X</span>
+                        <span className='absolute font-semibold text-4xl tracking-tighter -mt-4 right-6 italic text-white'>perience</span>
+                        <img className='mt-5 mx-auto' src={Experience} alt='experence' />
                     </div>
                 </div>
                 <div className='mt-44'>
                     <div className='w-full text-right my-32'>
                         <h2 className='text-white font-semibold underline text-xl mt-20'>Beautifull and Responsive</h2>
-                        <p className='mt-3 z-10'>Wherever Your customers will browse - Mobile, Desktop or Tablet - product always looks great and responsive</p>
+                        <p className='mt-3 z-10'>Wherever Your customers will browse - Mobile, Desktop or Tablet - final product will always looks great and responsive and ready to be used on all devices</p>
                     </div>
                     <div className='w-full flex justify-start mt-5'>
-                        <span className='absolute font-extrabold italic text-primary mt-2 text-6xl'>EVERY</span>
-                        <span className='absolute font-semibold text-4xl tracking-tighter italic ml-40 mt-6 text-white'>device</span>
-                        <img className='mt-14 mx-auto' src={Responsive} alt='experence' />
+                        <span className='absolute font-extrabold italic text-primary -mt-4 text-6xl'>EVERY</span>
+                        <span className='absolute font-semibold text-4xl tracking-tighter italic ml-40 text-white'>device</span>
+                        <img className='mt-8 mx-auto' src={Responsive} alt='experence' />
                     </div>
 
                 </div>
