@@ -3,7 +3,7 @@ import Webs from './webs/webs';
 import Components from './components/components';
 import Templates from './templates/templates';
 // Context API
-import { WorksContext } from '../../../state_context/state_context';
+import { WorksContext } from '../../../works_context/works_context';
 import { useContext } from  'react';
 
 const ContentSlider = () => {

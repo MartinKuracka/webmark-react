@@ -7,7 +7,7 @@ import "../../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 // Context API
-import { WorksContext } from '../../../state_context/state_context';
+import { WorksContext } from '../../../works_context/works_context';
 import { useContext } from 'react';
 
 

@@ -3,7 +3,7 @@ import { useState } from 'react';
 import MainWorksMenu from './main_work_menu/main_works_menu';
 import ContentSlider from './content_slider/content_slider';
 // Context API
-import { WorksContext } from '../../state_context/state_context';
+import { WorksContext } from '../../works_context/works_context';
 
 const WorksSection = () => {
 

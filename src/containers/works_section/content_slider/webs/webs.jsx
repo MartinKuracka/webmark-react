@@ -8,7 +8,7 @@ import Luna from '../../../../img/luna.jpg'
 // Styled components
 import {Button} from '../../../../components/styled_components';
 // Context API
-import { WorksContext } from '../../../../state_context/state_context';
+import { WorksContext } from '../../../../works_context/works_context';
 import { useContext } from 'react';
 
 const Webs = () => {
