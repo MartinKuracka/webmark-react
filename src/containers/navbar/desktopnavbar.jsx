@@ -5,7 +5,7 @@ const DesktopNavbar = () => {
     return(
         <>
         <div className='w-full h-14 bg-primary fixed hidden md:inline-flex justify-center'>
-            <div className='w-11/12 max-w-screen-xl justify-between  inline-flex'>
+            <div className='w-11/12 max-w-screen-xl justify-between inline-flex'>
                 <div className='flex'>
                     <img className='h-6 my-auto m-4' src={Logo} alt='logo'/>
                 </div>

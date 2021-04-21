@@ -27,7 +27,7 @@ const WorksSection = () => {
 
     return(
         <div className='w-full h-screen bg-works mt-44'>
-        <section className='flex w-11/12 h-screen flex-col mx-auto' id='works'>
+        <section className='flex w-11/12 max-w-screen-xl h-screen flex-col mx-auto' id='works'>
             <div className='flex justify-center'>
                 <div className='flex w-full justify-start'>
                     <h1 className='mt-20 text-background'>Works </h1>
