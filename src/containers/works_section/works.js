@@ -33,7 +33,7 @@ const WorksSection = () => {
                     <h1 className='mt-20 text-background'>Works </h1>
                 </div>
             </div>
-            <div className='bg-background min-h-3/4'>
+            <div className='bg-background min-h-3/4 shadow-xl'>
                 <WorksContext.Provider value={{setContent, setContentType, contenttype}}>
                     <SliderContent />
                 </WorksContext.Provider>
