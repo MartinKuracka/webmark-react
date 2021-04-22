@@ -36,8 +36,7 @@ const HeadSection = () => {
                                 <img className='mt-5' src={Experience} alt='experence' />
                             </div>
                         </div> 
-                    </div>
- 
+                    </div> 
                 </div>
                 <div className='mt-44'>
                     <div className='w-full text-right my-32'>
