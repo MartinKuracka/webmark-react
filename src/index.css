@@ -47,8 +47,9 @@ h1 {
 }
 
 span {
-  letter-spacing: -10px;
+  letter-spacing: -20px;
   line-height: 0.5;
   margin: 0px;
+  padding: 0px;
   font-size: 4.7rem;
 }

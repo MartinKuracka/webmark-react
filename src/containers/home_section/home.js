@@ -11,20 +11,33 @@ const HeadSection = () => {
         <>
         <section className='flex w-full flex-col bg-headerImg items-center image' id='home'>
             <div className='w-11/12 max-w-screen-xl'>
-                <h1 className='text-3xl font-light  mt-24'><span className='text-primary font-extrabold'>W</span>elcome To The</h1>
-                <h1 className='text-5xl'><span className='text-primary font-extrabold'>W</span>ebMark</h1>
-                <img className='-mt-3 w-96' src={Webmark} alt={Webmark}/>
-                <img className='mt-14' src={Hero} alt='hero' />
+                <div className='w-full h-screen flex flex-col lg:flex-row'>
+                    <div className='flex flex-col'>
+                        <h1 className='text-3xl font-light mt-24 lg:text-5xl'><span className='text-primary font-extrabold lg:text-9xl'>W</span>elcome To The</h1>
+                        <h1 className='text-5xl lg:-mt-9 lg:text-8xl'><span className='text-primary font-extrabold lg:text-9xl'>W</span>ebMark</h1>
+                        <img className='-mt-3 w-96 lg:w-full' src={Webmark} alt={Webmark}/>
+                    </div>
+                    <div>
+                        <img className='mt-20 lg:mt-44' src={Hero} alt='hero' />
+                    </div>
+                </div>
                 <div id='intro'>
-                    <div className='pt-20 w-full my-32'>
-                        <h2 className='text-white font-semibold underline text-xl'>Delivering Experience</h2>
-                        <p className='mt-3 z-10'>I am Using latest technologies and trends in all of my projects to deliver more than just a Website. I strive to deliver smooth and enjoyable user experience</p>
+                    <div className='flex flex-col lg:flex-row'>
+                        <div>
+                            <div className='pt-20 w-full mb-32 lg:p-20'>
+                                <h2 className='text-white font-semibold underline text-xl'>Delivering Experience</h2>
+                                <p className='mt-3 z-10'>I am Using latest technologies and trends in all of my projects to deliver more than just a Website. I strive to deliver smooth and enjoyable user experience</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='w-full flex justify-end lg:p-10 lg:mt-20'>
+                                <span className='absolute font-extrabold italic text-primary mr-36 -mt-16 text-8xl'>X</span>
+                                <span className='absolute font-semibold text-4xl tracking-tighter -mt-4 italic text-white'>perience</span>
+                                <img className='mt-5' src={Experience} alt='experence' />
+                            </div>
+                        </div> 
                     </div>
-                    <div className='w-full flex justify-end'>
-                        <span className='absolute font-extrabold italic text-primary mr-36 -mt-16 text-8xl'>X</span>
-                        <span className='absolute font-semibold text-4xl tracking-tighter -mt-4 right-6 italic text-white'>perience</span>
-                        <img className='mt-5 mx-auto' src={Experience} alt='experence' />
-                    </div>
+ 
                 </div>
                 <div className='mt-44'>
                     <div className='w-full text-right my-32'>
