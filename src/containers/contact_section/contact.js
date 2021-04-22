@@ -1,7 +1,12 @@
+import Form from '../../components/form/form';
+
 const ContactSection = () => {
     return(
-        <div className='flex w-full h-screen justify-center items-center bg-yellow-300' id='contact'>
-            <h1>Contact Section</h1>
+        <div className='flex w-full h-screen justify-center' id='contact'>
+            <div className='w-11/12 flex-col mt-20'>
+                <h1>Contact</h1>
+                <Form className='mt-5' />
+            </div>
         </div>
     )
 }
