@@ -29,7 +29,7 @@ const CoopSection = () => {
                         <div className='flex flex-col w-11/12 p-5'>
                         <h2 className='font-bold text-primary'>Putting it online</h2>
                         <img className='w-20' src={Underline} alt='underline' />
-                        <p className='text-primary text-sm mt-3'>After succesfull build of the project we will make depp review and go through several UX tests together to make sure everything works as intended and project is ready to be released. After this step, there is one last thing to do - put it online and make Your website alive...</p>
+                        <p className='text-primary text-sm mt-3'>After succesfull build of the project we will make deep review and go through several UX tests together to make sure everything works as intended and project is ready to be released. After this step, there is one last thing to do - put it online and make Your website alive...</p>
                     </div>
                     
                 </div>
