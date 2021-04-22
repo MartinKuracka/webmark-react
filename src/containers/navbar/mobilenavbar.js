@@ -16,7 +16,7 @@ const MobileNavbar = () => {
     }
 
     return(
-        <nav className='w-full h-14 bg-primary fixed flex justify-between md:hidden z-10'>
+        <nav className='w-full h-14 bg-primary fixed flex justify-between md:hidden z-20'>
             <img className='h-6 my-auto m-4' src={Logo} alt='logo'/>
             <MobileMenu menuDisplayed={menuDisplayed} handleMenu={handleMenu} />
             <Hamburger toggled={isOpen} toggle={setOpen} color="#ffffff" size={30} onToggle={() => handleMenu()} label="Show menu"/>
