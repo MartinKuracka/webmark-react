@@ -4,9 +4,9 @@ const CoopSection = () => {
 
     return(
         <div className='w-full flex justify-center mt-36' id='coop'>
-            <div className='flex flex-col w-11/12 justify-center my-20'>
-                <h1 className='w-full text-right text-primary z-10'>Coop</h1>
-                <div className='flex w-full bg-secondary flex-col md:flex-row'>
+            <div className='flex flex-col w-full justify-center items-center my-20'>
+                <h1 className='w-11/12 max-w-screen-xl text-right text-primary z-10 mr-10'>Coop</h1>
+                <div className='flex justify-center flex-col w-full max-w-screen-xl bg-secondary  md:flex-row'>
                     {/* First item */}
                     <div className='flex flex-col w-11/12 md:w-1/4 p-5'>
                         <h2 className='font-bold text-primary'>Initial consultation</h2>
