@@ -5,3 +5,9 @@
     background-repeat: no-repeat;
     background-size: 180%;
 }
+
+@media screen and (min-width: 1024px) {
+    .bg-works {
+        background-size: 100%;
+    }
+}

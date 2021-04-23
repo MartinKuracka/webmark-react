@@ -1,4 +1,6 @@
 import Underline from '../../img/underline.png';
+// Image
+import CoopImg from '../../img/Coop Background.svg';
 
 const CoopSection = () => {
 
@@ -30,8 +32,10 @@ const CoopSection = () => {
                         <h2 className='font-bold text-primary'>Putting it online</h2>
                         <img className='w-20' src={Underline} alt='underline' />
                         <p className='text-primary text-sm mt-3'>After succesfull build of the project we will make deep review and go through several UX tests together to make sure everything works as intended and project is ready to be released. After this step, there is one last thing to do - put it online and make Your website alive...</p>
-                    </div>
-                    
+                    </div>                    
+                </div>
+                <div className='max-w-screen-xl'>
+                    <img className='hidden md:flex' src={CoopImg} alt='coopimg'/>
                 </div>
             </div>
         </div>
