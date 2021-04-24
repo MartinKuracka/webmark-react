@@ -18,7 +18,11 @@ const ContactSection = () => {
                     </div>
                     <Form className='mt-5' setHidden={setHidden} setMessage={setMessage}/>
                 </div>
-                <p className='text-2xl mt-10 max-w-md text-primary' hidden={hidden}>{infomessage}</p>      
+                <div className='h-20 w-full'>
+
+               
+                    <p className='text-2xl mt-10 max-w-md text-primary' hidden={hidden}>{infomessage}</p>    
+                </div>  
             </div>
         </div>
     )
