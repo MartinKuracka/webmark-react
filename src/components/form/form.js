@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
 
-const Form = ({setHidden, setMessage}) => {    
+const Form = ({setHidden='true', setMessage=''}) => {    
     
     const [details, setDetails] = useState({
         name: '',
@@ -13,16 +13,14 @@ const Form = ({setHidden, setMessage}) => {
         e.preventDefault();
         emailjs.sendForm('mkuracka_gmail', 'mkuracka_gmail', e.target, 'user_zFV7MpAUzro7F8g0odthS')
         .then((result) => {
-            console.log(result.text);
-            setMessage('Thanks! Your message has been sent, I will get back to You soon...')
-            setHidden(false);
-            e.target[0].value = '';
-            e.target[1].value = '';
-            e.target[2].value = '';
+            setMessage('Thanks! Your message has been sent, I will get in touch soon...')
+            setHidden(true);
+            for(let i=0; i<3;i++) {
+                e.target[i].value = '';
+            }
         }, (error) => {
-            setMessage('...Oops, could not send the message, something went wrong,please try again');
-            setHidden(false);
-            console.log('error, not sent', error.text)
+            setMessage('...Oops, could not send the message, please try again');
+            setHidden(true);
         });
 
     }
