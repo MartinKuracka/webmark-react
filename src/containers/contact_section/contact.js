@@ -8,7 +8,7 @@ const ContactSection = () => {
     const [infomessage,setMessage] = useState('Like what You see? Need more info?');
 
     return(
-        <div className='flex w-full h-screen justify-center' id='contact'>
+        <div className='flex w-full min-h-full justify-center' id='contact'>
             <div className='flex flex-col w-11/12 max-w-screen-xl mt-20'>
                 <h1 className='w-11/12 max-w-lg text-left'>Contact</h1>
                 <div className='flex flex-col lg:flex-row'>
