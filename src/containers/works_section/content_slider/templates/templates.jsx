@@ -36,9 +36,9 @@ const Templates = () => {
                 <img className='mx-auto' src={Face} alt='srdcofka'/>
                 <div className='flex flex-col justify-between h-full'>
                     <div className='flex flex-col '>
-                        <h2 className='text-primary font-bold mt-3' title='srdcofka' target='_blank' rel="noreferrer" >Find The face</h2>
+                        <h2 className='text-primary text-xl font-bold mt-3' title='srdcofka' target='_blank' rel="noreferrer" >Find The face</h2>
                         <p className='text-primary'>Full stack App that detects faces in the pictures</p>
-                        <h2 className='text-primary font-bold mt-4'>Technology used</h2>
+                        <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
                         <p className='text-primary'>HTML, CSS, JS, React, Clarifai API, NodeJs, ExpressJs, postgreSQL, Heroku </p>
                     </div>
                     <div className='mt-5 flex justify-between'>
@@ -54,9 +54,9 @@ const Templates = () => {
                 <img className='mx-auto' src={Goodboy} alt='luna' />
                 <div className='flex flex-col justify-between h-52'>
                     <div className='flex flex-col '>
-                        <h2 className='text-primary font-bold mt-3' title='srdcofka' target='_blank' rel="noreferrer" >GoodBoy</h2>
+                        <h2 className='text-primary text-xl font-bold mt-3' title='srdcofka' target='_blank' rel="noreferrer" >GoodBoy</h2>
                         <p className='text-primary'>Dog support charity sample form for contributions</p>
-                        <h2 className='text-primary font-bold mt-4'>Technology used</h2>
+                        <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
                         <p className='text-primary'>HTML, CSS, JS, React, Redux, React Hooks, API</p>
                     </div>
                     <div className='mt-5 flex justify-between'>
@@ -72,9 +72,9 @@ const Templates = () => {
                 <img className='mx-auto' src={Anime} alt='luna' />
                 <div className='flex flex-col justify-between h-52'>
                     <div className='flex flex-col '>
-                        <h2 className='text-primary font-bold mt-3' target='_blank' rel="noreferrer" >Animations</h2>
+                        <h2 className='text-primary text-xl font-bold mt-3' target='_blank' rel="noreferrer" >Animations</h2>
                         <p className='text-primary'>Modern animations demo on a template page</p>
-                        <h2 className='text-primary font-bold mt-4'>Technology used</h2>
+                        <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
                         <p className='text-primary'>HTML, CSS, JS, Tailwinds, AOS Animate on Scroll</p>
                     </div>
                     <div className='mt-5 flex justify-between'>

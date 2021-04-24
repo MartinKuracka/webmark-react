@@ -25,8 +25,8 @@ const HeadSection = () => {
                     <div className='flex flex-col lg:flex-row'>
                         <div>
                             <div className='pt-20 w-full mb-32 lg:p-20'>
-                                <h2 className='text-white font-semibold underline text-xl'>Delivering Experience</h2>
-                                <p className='mt-3 z-10'>I am Using latest technologies and trends in all of my projects to deliver more than just a Website. I strive to deliver smooth and enjoyable user experience</p>
+                                <h2 className='text-white font-semibold xl:text-2xl text-xl'>Delivering Experience</h2>
+                                <p className='mt-3 z-10 '>I am Using latest technologies and trends in all of my projects to deliver more than just a Website. I strive to deliver smooth and enjoyable user experience</p>
                             </div>
                         </div>
                         <div>
@@ -40,7 +40,7 @@ const HeadSection = () => {
                 </div>
                 <div className='mt-44'>
                     <div className='w-full text-right my-32'>
-                        <h2 className='text-white font-semibold underline text-xl mt-20'>Beautifull and Responsive</h2>
+                        <h2 className='text-white font-semibold text-xl xl:text-2xl mt-20'>Beautifull and Responsive</h2>
                         <p className='mt-3 z-10'>Wherever Your customers will browse - Mobile, Desktop or Tablet - final product will always looks great and responsive and ready to be used on all devices</p>
                     </div>
                     <div className='w-full flex justify-start mt-5'>

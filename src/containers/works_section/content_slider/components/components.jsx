@@ -38,9 +38,9 @@ const Components = () => {
                 <img className='mx-auto' src={Scroll} alt='srdcofka'/>
                 <div className='flex flex-col justify-between h-full'>
                     <div className='flex flex-col '>
-                        <h2 className='text-primary font-bold mt-3' title='srdcofka' target='_blank' rel="noreferrer" >Infinite Scroll</h2>
+                        <h2 className='text-primary text-xl font-bold mt-3' title='srdcofka' target='_blank' rel="noreferrer" >Infinite Scroll</h2>
                         <p className='text-primary'>This one scrolls and uploads images infinitely from Unsplash API </p>
-                        <h2 className='text-primary font-bold mt-4'>Technology used</h2>
+                        <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
                         <p className='text-primary'>HTML, CSS, JS, Unsplash API </p>
                     </div>
                     <div className='mt-5 flex justify-between'>
@@ -56,9 +56,9 @@ const Components = () => {
                 <img className='mx-auto' src={Dark} alt='luna' />
                 <div className='flex flex-col justify-between h-52'>
                     <div className='flex flex-col '>
-                        <h2 className='text-primary font-bold mt-3' title='srdcofka' target='_blank' rel="noreferrer" >Light/Dark mode</h2>
+                        <h2 className='text-primary text-xl font-bold mt-3' title='srdcofka' target='_blank' rel="noreferrer" >Light/Dark mode</h2>
                         <p className='text-primary'>Switching betwen Dark and Light mode</p>
-                        <h2 className='text-primary font-bold mt-4'>Technology used</h2>
+                        <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
                         <p className='text-primary'>HTML, CSS, JS, Undraw.co </p>
                     </div>
                     <div className='mt-5 flex justify-between'>
@@ -74,9 +74,9 @@ const Components = () => {
                 <img className='mx-auto' src={Menu} alt='luna' />
                 <div className='flex flex-col justify-between h-52'>
                     <div className='flex flex-col '>
-                        <h2 className='text-primary font-bold mt-3' target='_blank' rel="noreferrer" >Animated Menu</h2>
+                        <h2 className='text-primary text-xl font-bold mt-3' target='_blank' rel="noreferrer" >Animated Menu</h2>
                         <p className='text-primary'>Modern menu with feelgood animation</p>
-                        <h2 className='text-primary font-bold mt-4'>Technology used</h2>
+                        <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
                         <p className='text-primary'>HTML, CSS, JS </p>
                     </div>
                     <div className='mt-5 flex justify-between'>
@@ -92,9 +92,9 @@ const Components = () => {
                 <img className='mx-auto' src={Picture} alt='luna' />
                 <div className='flex flex-col justify-between h-52'>
                     <div className='flex flex-col '>
-                        <h2 className='text-primary font-bold mt-3' target='_blank' rel="noreferrer" >Picture In Picture</h2>
+                        <h2 className='text-primary text-xl font-bold mt-3' target='_blank' rel="noreferrer" >Picture In Picture</h2>
                         <p className='text-primary'>Creates pop-up window to share the screen</p>
-                        <h2 className='text-primary font-bold mt-4'>Technology used</h2>
+                        <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
                         <p className='text-primary'>HTML, CSS, JS </p>
                     </div>
                     <div className='mt-5 flex justify-between'>
@@ -110,9 +110,9 @@ const Components = () => {
                 <img className='mx-auto' src={Quotes} alt='luna' />
                 <div className='flex flex-col justify-between h-52'>
                     <div className='flex flex-col '>
-                        <h2 className='text-primary font-bold mt-3' target='_blank' rel="noreferrer" >Quotes generator</h2>
+                        <h2 className='text-primary text-xl font-bold mt-3' target='_blank' rel="noreferrer" >Quotes generator</h2>
                         <p className='text-primary'>Can be used as Quote Of The Day on pages</p>
-                        <h2 className='text-primary font-bold mt-4'>Technology used</h2>
+                        <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
                         <p className='text-primary'>HTML, CSS, JS, speech and quotes API </p>
                     </div>
                     <div className='mt-5 flex justify-between'>
