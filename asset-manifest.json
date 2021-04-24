@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/webmark-react/static/css/main.9a10e795.chunk.css",
-    "main.js": "/webmark-react/static/js/main.634eab29.chunk.js",
-    "main.js.map": "/webmark-react/static/js/main.634eab29.chunk.js.map",
+    "main.css": "/webmark-react/static/css/main.e3d8758a.chunk.css",
+    "main.js": "/webmark-react/static/js/main.62266a80.chunk.js",
+    "main.js.map": "/webmark-react/static/js/main.62266a80.chunk.js.map",
     "runtime-main.js": "/webmark-react/static/js/runtime-main.28dd4e0f.js",
     "runtime-main.js.map": "/webmark-react/static/js/runtime-main.28dd4e0f.js.map",
     "static/css/2.ecb9f06d.chunk.css": "/webmark-react/static/css/2.ecb9f06d.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.ff0c79f0.chunk.js.map": "/webmark-react/static/js/2.ff0c79f0.chunk.js.map",
     "index.html": "/webmark-react/index.html",
     "static/css/2.ecb9f06d.chunk.css.map": "/webmark-react/static/css/2.ecb9f06d.chunk.css.map",
-    "static/css/main.9a10e795.chunk.css.map": "/webmark-react/static/css/main.9a10e795.chunk.css.map",
+    "static/css/main.e3d8758a.chunk.css.map": "/webmark-react/static/css/main.e3d8758a.chunk.css.map",
     "static/js/2.ff0c79f0.chunk.js.LICENSE.txt": "/webmark-react/static/js/2.ff0c79f0.chunk.js.LICENSE.txt",
     "static/media/Coop Background.ed676a79.svg": "/webmark-react/static/media/Coop Background.ed676a79.svg",
     "static/media/Thumb_apps.25255e0c.jpg": "/webmark-react/static/media/Thumb_apps.25255e0c.jpg",
@@ -21,6 +21,7 @@
     "static/media/darkmode.02df0e02.jpg": "/webmark-react/static/media/darkmode.02df0e02.jpg",
     "static/media/face.197919b0.jpg": "/webmark-react/static/media/face.197919b0.jpg",
     "static/media/face_BW2.f5061193.PNG": "/webmark-react/static/media/face_BW2.f5061193.PNG",
+    "static/media/footer_logo.1ab9745e.png": "/webmark-react/static/media/footer_logo.1ab9745e.png",
     "static/media/goodboy.7487e438.jpg": "/webmark-react/static/media/goodboy.7487e438.jpg",
     "static/media/home.css": "/webmark-react/static/media/hdr_background.a27fc5d5.svg",
     "static/media/hdr_image.37087305.svg": "/webmark-react/static/media/hdr_image.37087305.svg",
@@ -40,7 +41,7 @@
     "static/js/runtime-main.28dd4e0f.js",
     "static/css/2.ecb9f06d.chunk.css",
     "static/js/2.ff0c79f0.chunk.js",
-    "static/css/main.9a10e795.chunk.css",
-    "static/js/main.634eab29.chunk.js"
+    "static/css/main.e3d8758a.chunk.css",
+    "static/js/main.62266a80.chunk.js"
   ]
 }
