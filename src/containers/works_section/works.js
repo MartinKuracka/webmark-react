@@ -28,19 +28,19 @@ const WorksSection = () => {
     }
 
     return(
-        <div className='w-full h-screen bg-works mt-44'>
-        <section className='flex w-11/12 max-w-screen-xl h-screen flex-col mx-auto' id='works'>
-            <div className='flex justify-center'>
-                <div className='flex w-full justify-start'>
-                    <h1 className='mt-20 text-background'>Works </h1>
+        <div className='w-full h-screen min-h-screen bg-works mt-44'>
+            <section className='flex w-11/12 max-w-screen-xl flex-col items-center mx-auto' id='works'>
+                <div className='flex w-full max-w-540 justify-center'>
+                    <div className='flex w-full justify-start'>
+                        <h1 className='mt-20 text-background'>Works </h1>
+                    </div>
                 </div>
-            </div>
-            <div className='bg-background min-h-3/4 shadow-xl'>
-                <WorksContext.Provider value={{setContent, setContentType, contenttype}}>
-                    <SliderContent />
-                </WorksContext.Provider>
-            </div>
-        </section>
+                <div className='w-full bg-background shadow-xl max-w-540 lg:max-w-1024'>
+                    <WorksContext.Provider value={{setContent, setContentType, contenttype}}>
+                        <SliderContent />
+                    </WorksContext.Provider>
+                </div>
+            </section>
         </div>
     )
 }

@@ -24,7 +24,7 @@ const MainWorksMenu = () => {
         centerMode: true,
         autoplay: false,
         arrows: false,
-        className: 'm-5 w-full',
+        className: 'flex flex-row',
         centerPadding: '0px',
     };
 
@@ -34,26 +34,35 @@ const MainWorksMenu = () => {
     }
 
     return(
-        <Slider {...settings} className=''>
+        <Slider {...settings} >
+            {/* Slide 1 */}
             <div className='p-5'>
-                <img className='mx-auto' src={Slide1} alt='slide' />
-                <div className='flex flex-col'>
-                    <h2 className='text-primary text-xl underline font-bold my-3' title='webs' onClick={handleOnclick}>Website projects</h2>
-                    <p className='text-primary text-lg'>Full Website project that I have worked on since 2020 </p>
+                <div className='flex flex-col lg:flex-row w-full'>
+                    <img className='mx-auto' src={Slide1} alt='slide' />
+                    <div className='flex flex-col'>
+                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0' title='webs' onClick={handleOnclick}>Website projects</h2>
+                        <p className='text-primary lg:text-xl lg:mx-3'>Full Website project that I have worked on since 2020 </p>
+                    </div>
                 </div>
             </div>
+            {/* Slide 2 */}
             <div className='p-5'>
-                <img className='mx-auto' src={Slide2} alt='slide' />
-                <div className='flex flex-col'>
-                    <h2 className='text-primary text-xl underline font-bold my-3' title='components'onClick={handleOnclick}>App Components</h2>
-                    <p className='text-primary text-lg'>Different types of page components that can be re-used in Web projects </p>
+                <div className='flex flex-col lg:flex-row w-full'>
+                    <img className='mx-auto' src={Slide2} alt='slide' />
+                    <div className='flex flex-col  mx-auto'>
+                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0' title='components'onClick={handleOnclick}>App Components</h2>
+                        <p className='text-primary lg:text-xl lg:mx-3'>Different types of page components that can be re-used in Web projects </p>
+                    </div>
                 </div>
             </div>
+            {/* Slide 3 */}
             <div className='p-5'>
-                <img className='mx-auto' src={Slide3} alt='slide' />
-                <div className='flex flex-col'>
-                    <h2 className='text-primary text-xl underline font-bold my-3' title='templates' onClick={handleOnclick}>Demo templates</h2>
-                    <p className='text-primary text-lg'>Here You will find demo projects that showcase communications with API, databases, Password encryption and more... </p>
+                <div className='flex flex-col lg:flex-row w-full'>
+                    <img className='mx-auto' src={Slide3} alt='slide' />
+                    <div className='flex flex-col  mx-auto'>
+                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0' title='templates' onClick={handleOnclick}>Demo templates</h2>
+                        <p className='text-primary lg:text-xl lg:mx-3'>Here You will find demo projects that showcase communications with API, databases, Password encryption and more... </p>
+                    </div>
                 </div>
             </div>
         </Slider>
