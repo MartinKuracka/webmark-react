@@ -25,7 +25,7 @@ const Components = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
-        autoplay: false,
+        autoplay: true,
         arrows: false,
         className: 'm-5 w-full',
         centerPadding: '0px',

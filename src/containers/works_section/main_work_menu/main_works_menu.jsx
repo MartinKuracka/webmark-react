@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 // Images
 import Slide1 from '../../../img/Thumb_websites2.jpg';
 import Slide2 from '../../../img/Thumb_apps.jpg';
@@ -14,6 +15,7 @@ import { useContext } from 'react';
 const MainWorksMenu = () => {
 
     const {setContent, setContentType} = useContext(WorksContext);
+    const [arrowState, setArrows] = useState(false)
 
     var settings = {
         dots: true,
@@ -22,11 +24,15 @@ const MainWorksMenu = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
-        autoplay: false,
-        arrows: false,
-        className: 'flex flex-row',
+        autoplay: true,
         centerPadding: '0px',
     };
+
+    useEffect(() => {
+        if (window.innerWidth < 1024) {
+            setArrows(false);
+        } else setArrows(true);
+    }, []);
 
     const handleOnclick = (e) => {
         setContent('content');
@@ -34,13 +40,13 @@ const MainWorksMenu = () => {
     }
 
     return(
-        <Slider {...settings} >
+        <Slider {...settings} arrows={arrowState}>
             {/* Slide 1 */}
             <div className='p-5'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img className='mx-auto' src={Slide1} alt='slide' />
                     <div className='flex flex-col'>
-                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0' title='webs' onClick={handleOnclick}>Website projects</h2>
+                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='webs' onClick={handleOnclick}>Website projects</h2>
                         <p className='text-primary lg:text-xl lg:mx-3'>Full Website project that I have worked on since 2020 </p>
                     </div>
                 </div>
@@ -50,7 +56,7 @@ const MainWorksMenu = () => {
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img className='mx-auto' src={Slide2} alt='slide' />
                     <div className='flex flex-col  mx-auto'>
-                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0' title='components'onClick={handleOnclick}>App Components</h2>
+                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='components'onClick={handleOnclick}>App Components</h2>
                         <p className='text-primary lg:text-xl lg:mx-3'>Different types of page components that can be re-used in Web projects </p>
                     </div>
                 </div>
@@ -60,7 +66,7 @@ const MainWorksMenu = () => {
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img className='mx-auto' src={Slide3} alt='slide' />
                     <div className='flex flex-col  mx-auto'>
-                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0' title='templates' onClick={handleOnclick}>Demo templates</h2>
+                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='templates' onClick={handleOnclick}>Demo templates</h2>
                         <p className='text-primary lg:text-xl lg:mx-3'>Here You will find demo projects that showcase communications with API, databases, Password encryption and more... </p>
                     </div>
                 </div>
