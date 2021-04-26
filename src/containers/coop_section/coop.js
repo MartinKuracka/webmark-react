@@ -8,7 +8,8 @@ const CoopSection = () => {
         <div className='w-full flex justify-center mt-36' id='coop'>
             <div className='flex flex-col w-full justify-center items-center my-20'>
                 <h1 className='w-11/12 max-w-screen-xl text-right text-primary z-10 mr-10'>Coop</h1>
-                <div className='flex justify-center flex-col w-full max-w-screen-xl bg-secondary  md:flex-row'>
+                <div className='flex justify-center bg-white'>
+                <div className='flex justify-center flex-col w-full max-w-screen-xl md:flex-row lg:w-9/12'>
                     {/* First item */}
                     <div className='flex flex-col w-11/12 md:w-1/4 p-5'>
                         <h2 className='font-bold lg:text-xl text-primary'>Initial consultation</h2>
@@ -34,6 +35,8 @@ const CoopSection = () => {
                         <p className='text-primary text-sm lg:text-base mt-3'>After succesfull build of the project we will make deep review and go through several UX tests together to make sure everything works as intended and project is ready to be released. After this step, there is one last thing to do - put it online and make Your website alive...</p>
                     </div>                    
                 </div>
+                </div>
+              
                 <div className='max-w-screen-xl'>
                     <img className='hidden md:flex' src={CoopImg} alt='coopimg'/>
                 </div>

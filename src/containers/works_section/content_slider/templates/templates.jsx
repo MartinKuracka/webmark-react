@@ -59,7 +59,7 @@ const Templates = () => {
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' title='srdcofka' target='_blank' rel="noreferrer" >GoodBoy</h2>
                             <p className='text-primary text-sm'>Dog support charity sample form for contributions</p>
-                            <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
+                            <h2 className='text-primary lg:text-xl font-bold mt-4'>Technology used</h2>
                             <p className='text-primary text-sm'>HTML, CSS, JS, React, Redux, React Hooks, API</p>
                         </div>
                         <div className='mt-5 flex justify-between'>
@@ -79,7 +79,7 @@ const Templates = () => {
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' target='_blank' rel="noreferrer" >Animations</h2>
                             <p className='text-primary text-sm'>Modern animations demo on a template page</p>
-                            <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
+                            <h2 className='text-primary lg:text-xl font-bold mt-4'>Technology used</h2>
                             <p className='text-primary text-sm'>HTML, CSS, JS, Tailwinds, AOS Animate on Scroll</p>
                         </div>
                         <div className='mt-5 flex justify-between'>
