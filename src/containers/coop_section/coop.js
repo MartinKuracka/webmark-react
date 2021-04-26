@@ -6,7 +6,7 @@ const CoopSection = () => {
 
     return(
         <div className='w-full flex justify-center mt-36' id='coop'>
-            <div className='flex flex-col w-full justify-center items-center my-20'>
+            <div className='flex flex-col min-h-screen w-full justify-center items-center my-20'>
                 <h1 className='w-11/12 max-w-screen-xl text-right text-primary z-10 mr-10'>Coop</h1>
                 <div className='flex justify-center bg-white'>
                 <div className='flex justify-center flex-col w-full max-w-screen-xl md:flex-row lg:w-9/12'>

@@ -3,7 +3,7 @@ import Myface from '../../img/face_BW2.PNG';
 
 const AboutSection = () => {
     return(
-        <div className='flex w-full max-w-screen-lg justify-center' id='about'>
+        <div className='flex w-full max-w-screen-lg min-h-screen justify-center' id='about'>
             <div className='w-11/12 max-w-1024 flex mt-20 flex-col'>
                 <h1 className='text-primary'>About</h1>
                 <div className='w-full bg-secondary shadow-xl lg:p-10'>

@@ -23,7 +23,7 @@ const HeadSection = () => {
                     </div>
                 </div>
                 {/* Intro section */}
-                <div className='w-full flex justify-center ' id='intro'>
+                <div className='w-full flex justify-center min-h-screen' id='intro'>
                     <div className='w-11/12 max-w-xl flex flex-col lg:flex-row lg:items-center lg:justify-center mx-auto'>
                         <div className='pt-10 lg:w-1/2 lg:text-right mt-10'>
                             <b className='text-white font-semibold lg:text-3xl text-xl'>Delivering Experience</b>

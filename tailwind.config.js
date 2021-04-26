@@ -34,6 +34,7 @@ module.exports = {
         '3/4': '75%',
         '4/5': '86%',
         'full': '100%',
+        'screen': '100vh'
        },
        maxWidth: {
          '500': '500px',
