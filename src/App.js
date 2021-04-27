@@ -7,6 +7,8 @@ import AboutSection from './containers/about_section/about';
 import CoopSection from './containers/coop_section/coop';
 import ContactSection from  './containers/contact_section/contact';
 import Footer from './containers/footer/footer';
+// i18next translation
+import './i18n'
 
 
 function App() {

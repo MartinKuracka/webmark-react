@@ -10,9 +10,13 @@ import Slider from "react-slick";
 // Context API
 import { WorksContext } from '../../../works_context/works_context';
 import { useContext } from 'react';
+// i18n tanslation
+import { useTranslation } from 'react-i18next';
 
 
 const MainWorksMenu = () => {
+
+    const { t } = useTranslation();
 
     const {setContent, setContentType} = useContext(WorksContext);
     const [arrowState, setArrows] = useState(false)
@@ -46,8 +50,8 @@ const MainWorksMenu = () => {
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img className='mx-auto' src={Slide1} alt='slide' />
                     <div className='flex flex-col'>
-                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='webs' onClick={handleOnclick}>Website projects</h2>
-                        <p className='text-primary lg:text-xl lg:mx-3'>Full Website project that I have worked on since 2020 </p>
+                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='webs' onClick={handleOnclick}>{t('Website')}</h2>
+                        <p className='text-primary lg:text-xl lg:mx-3'>{t('projects')}</p>
                     </div>
                 </div>
             </div>
@@ -56,8 +60,8 @@ const MainWorksMenu = () => {
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img className='mx-auto' src={Slide2} alt='slide' />
                     <div className='flex flex-col  mx-auto'>
-                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='components'onClick={handleOnclick}>App Components</h2>
-                        <p className='text-primary lg:text-xl lg:mx-3'>Different types of page components that can be re-used in Web projects </p>
+                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='components'onClick={handleOnclick}>{t('App')}</h2>
+                        <p className='text-primary lg:text-xl lg:mx-3'>{t('Different')}</p>
                     </div>
                 </div>
             </div>
@@ -66,8 +70,8 @@ const MainWorksMenu = () => {
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img className='mx-auto' src={Slide3} alt='slide' />
                     <div className='flex flex-col  mx-auto'>
-                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='templates' onClick={handleOnclick}>Demo templates</h2>
-                        <p className='text-primary lg:text-xl lg:mx-3'>Here You will find demo projects that showcase communications with API, databases, Password encryption and more... </p>
+                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='templates' onClick={handleOnclick}>{t('templates')}</h2>
+                        <p className='text-primary lg:text-xl lg:mx-3'>{t('demo')}</p>
                     </div>
                 </div>
             </div>

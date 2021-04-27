@@ -1,7 +1,12 @@
 // images
 import Logo from '../../img/logo_SVG.svg';
+// i18n tanslation
+import { useTranslation } from 'react-i18next';
 
 const DesktopNavbar = () => {
+
+    const { t } = useTranslation();
+
     return(
         <>
         <div className='w-full h-14 bg-primary fixed hidden md:inline-flex justify-center z-20'>
@@ -11,22 +16,22 @@ const DesktopNavbar = () => {
                 </div>
                 <div className='flex'>
                     <label className='my-auto text-white '>
-                        <a className='text-xl  ' href='#home' >Home</a>
+                        <a className='text-xl  ' href='#home' >{t('home')}</a>
                     </label>
                     <label className='my-auto text-white ml-10'>
-                        <a className='text-xl  ' href='#intro' >Intro</a>
+                        <a className='text-xl  ' href='#intro' >{t('intro')}</a>
                     </label>
                     <label className='my-auto text-white ml-10'>
-                        <a className='text-xl  ' href='#works' >Works</a>
+                        <a className='text-xl  ' href='#works' >{t('works')}</a>
                     </label>
                     <label className='my-auto text-white ml-10'>
-                        <a className='text-xl  ' href='#about' >About</a>
+                        <a className='text-xl  ' href='#about' >{t('about')}</a>
                     </label>
                     <label className='my-auto text-white ml-10'>
-                        <a className='text-xl  ' href='#coop' >Coop</a>
+                        <a className='text-xl  ' href='#coop' >{t('coop')}</a>
                     </label>
                     <label className='my-auto text-white ml-10'>
-                        <a className='text-xl  ' href='#contact' >Contact</a>
+                        <a className='text-xl  ' href='#contact' >{t('cont')}</a>
                     </label>
                 </div>
             </div>
