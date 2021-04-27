@@ -13,8 +13,12 @@ import {Button} from '../../../../components/styled_components';
 // Context API
 import { WorksContext } from '../../../../works_context/works_context';
 import { useContext } from 'react';
+// i18n tanslation
+import { useTranslation } from 'react-i18next';
 
 const Components = () => {
+
+    const { t } = useTranslation();
 
     const {setContent} = useContext(WorksContext);
 
@@ -25,7 +29,7 @@ const Components = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
-        autoplay: true,
+        autoplay: false,
         arrows: false,
         className: 'm-5 w-full',
         centerPadding: '0px',
@@ -39,13 +43,13 @@ const Components = () => {
                     <img src={Scroll} alt='srdcofka'/>
                     <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
                         <div className='flex flex-col '>
-                            <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' title='srdcofka' target='_blank' rel="noreferrer" >Infinite Scroll</h2>
-                            <p className='text-primary text-sm'>This one scrolls and uploads images infinitely from Unsplash API </p>
-                            <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
-                            <p className='text-primary text-sm'>HTML, CSS, JS, Unsplash API </p>
+                            <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' title='srdcofka' target='_blank' rel="noreferrer" >{t('Infinite')}</h2>
+                            <p className='text-primary text-sm lg:text-base'>{t('Infinitetext')}</p>
+                            <h2 className='text-primary lg:text-xl font-bold mt-4'>{t('Technology')}</h2>
+                            <p className='text-primary text-sm lg:text-base'>HTML, CSS, JS, Unsplash API </p>
                         </div>
                         <div className='mt-5 flex justify-between'>
-                            <Button back onClick={() => setContent('main')}>BACK</Button>
+                            <Button back onClick={() => setContent('main')}>{t('BACK')}</Button>
                             <a href='https://martinkuracka.github.io/infinite-scroll/' target='_blank' rel="noreferrer">
                                 <Button >LIVE</Button>
                             </a>
@@ -59,13 +63,13 @@ const Components = () => {
                     <img src={Dark} alt='luna' />
                     <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
                         <div className='flex flex-col '>
-                            <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' title='srdcofka' target='_blank' rel="noreferrer" >Light/Dark mode</h2>
-                            <p className='text-primary text-sm'>Switching betwen Dark and Light mode</p>
-                            <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
-                            <p className='text-primary text-sm'>HTML, CSS, JS, Undraw.co </p>
+                            <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' title='srdcofka' target='_blank' rel="noreferrer" >{t('Light')}</h2>
+                            <p className='text-primary text-sm lg:text-base'>{t('Switching')}</p>
+                            <h2 className='text-primary lg:text-xl font-bold mt-4'>{t('Technology')}</h2>
+                            <p className='text-primary text-sm lg:text-base'>HTML, CSS, JS, Undraw.co </p>
                         </div>
                         <div className='mt-5 flex justify-between'>
-                            <Button back onClick={() => setContent('main')}>BACK</Button>
+                            <Button back onClick={() => setContent('main')}>{t('BACK')}</Button>
                             <a href='https://martinkuracka.github.io/Light-Dark-mode-Website/' target='_blank' rel="noreferrer">
                                 <Button >LIVE</Button>
                             </a>
@@ -79,13 +83,13 @@ const Components = () => {
                     <img src={Menu} alt='luna' />
                     <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
                         <div className='flex flex-col '>
-                            <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' target='_blank' rel="noreferrer" >Animated Menu</h2>
-                            <p className='text-primary text-sm'>Modern menu with feelgood animation</p>
-                            <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
-                            <p className='text-primary text-sm'>HTML, CSS, JS </p>
+                            <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' target='_blank' rel="noreferrer" >{t('Animated')}</h2>
+                            <p className='text-primary text-sm lg:text-base'>{t('Modern')}</p>
+                            <h2 className='text-primary lg:text-xl font-bold mt-4'>{t('Technology')}</h2>
+                            <p className='text-primary text-sm lg:text-base'>HTML, CSS, JS </p>
                         </div>
                         <div className='mt-5 flex justify-between'>
-                            <Button back onClick={() => setContent('main')}>BACK</Button>
+                            <Button back onClick={() => setContent('main')}>{t('BACK')}</Button>
                             <a href='https://martinkuracka.github.io/navigation-menu-animations/' target='_blank' rel="noreferrer">
                                 <Button >LIVE</Button>
                             </a>
@@ -99,13 +103,13 @@ const Components = () => {
                     <img src={Picture} alt='luna' />
                     <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
                         <div className='flex flex-col '>
-                            <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' target='_blank' rel="noreferrer" >Picture In Picture</h2>
-                            <p className='text-primary text-sm'>Creates pop-up window to share the screen</p>
-                            <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
-                            <p className='text-primary text-sm'>HTML, CSS, JS </p>
+                            <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' target='_blank' rel="noreferrer" >{t('Picture')}</h2>
+                            <p className='text-primary text-sm lg:text-base'>{t('Pop-up')}</p>
+                            <h2 className='text-primary lg:text-xl font-bold mt-4'>{t('Technology')}</h2>
+                            <p className='text-primary text-sm lg:text-base'>HTML, CSS, JS </p>
                         </div>
                         <div className='mt-5 flex justify-between'>
-                            <Button back onClick={() => setContent('main')}>BACK</Button>
+                            <Button back onClick={() => setContent('main')}>{t('BACK')}</Button>
                             <a href='https://martinkuracka.github.io/picture-in-picture/' target='_blank' rel="noreferrer">
                                 <Button >LIVE</Button>
                             </a>
@@ -119,13 +123,13 @@ const Components = () => {
                     <img src={Quotes} alt='luna' />
                     <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
                         <div className='flex flex-col '>
-                            <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' target='_blank' rel="noreferrer" >Quotes generator</h2>
-                            <p className='text-primary text-sm'>Can be used as Quote Of The Day on pages</p>
-                            <h2 className='text-primary text-xl font-bold mt-4'>Technology used</h2>
-                            <p className='text-primary text-sm'>HTML, CSS, JS, speech and quotes API </p>
+                            <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' target='_blank' rel="noreferrer" >{t('Quotes')}</h2>
+                            <p className='text-primary text-sm lg:text-base'>{t('QuoteDay')}</p>
+                            <h2 className='text-primary lg:text-xl font-bold mt-4'>{t('Technology')}</h2>
+                            <p className='text-primary text-sm lg:text-base'>HTML, CSS, JS, speech and quotes API </p>
                         </div>
                         <div className='mt-5 flex justify-between'>
-                            <Button back onClick={() => setContent('main')}>BACK</Button>
+                            <Button back onClick={() => setContent('main')}>{t('BACK')}</Button>
                             <a href='https://martinkuracka.github.io/Quote-generator/' target='_blank' rel="noreferrer">
                                 <Button >LIVE</Button>
                             </a>

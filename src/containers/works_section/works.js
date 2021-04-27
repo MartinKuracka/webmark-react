@@ -6,8 +6,12 @@ import ContentSlider from './content_slider/content_slider';
 import { WorksContext } from '../../works_context/works_context';
 // Css
 import './works.css';
+// i18n tanslation
+import { useTranslation } from 'react-i18next';
 
 const WorksSection = () => {
+
+    const { t } = useTranslation();
 
     const [workscontent, setContent] = useState('main');
     const [contenttype, setContentType] = useState('webs');
@@ -32,7 +36,7 @@ const WorksSection = () => {
             <section className='flex w-11/12 max-w-screen-xl flex-col items-center mx-auto' id='works'>
                 <div className='flex w-full max-w-540 justify-center'>
                     <div className='flex w-full justify-start'>
-                        <h1 className='mt-20 text-background'>Works </h1>
+                        <h1 className='mt-20 text-background'>{t('Works')} </h1>
                     </div>
                 </div>
                 <div className='w-full bg-background shadow-xl max-w-540 lg:max-w-1024'>
