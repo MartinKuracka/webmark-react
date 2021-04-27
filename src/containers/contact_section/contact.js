@@ -17,7 +17,8 @@ const ContactSection = () => {
                 <h1 className='w-11/12 max-w-500 text-left'>{t('Kontakt')}</h1>
                 <div className='flex flex-col lg:flex-row'>
                     <div className='flex w-full justify-around flex-col max-w-lg text-right p-3 bg-secondary'>
-                        <h1 className='text-4xl text-primary2 tracking-tighter px-4'>{infomessage}</h1>
+                        <h1 className='text-4xl text-primary2 tracking-tighter px-4' hidden={!hidden}>{infomessage}</h1>
+                        <h1 className='text-4xl text-primary2 tracking-tighter px-4' hidden={hidden}>{t('KontaktT1')}</h1>
                         <h2 className='text-2xl font-bold text-primary my-5 px-4' hidden={hidden}>{t('Just')}</h2>
                     </div>
                     <Form className='mt-5' setHidden={setHidden} setMessage={setMessage}/>

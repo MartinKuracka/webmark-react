@@ -54,6 +54,7 @@
     "Name" : "Name",
     "Message" : "Your Message",
     "Send" : "SEND",
-    "Lang" : "EN"
-
+    "Lang" : "EN",
+    "Sent" : "Thanks! Your message has been sent, I will get in touch soon...",
+    "Failed" : "...Oops, could not send the message, please try again"
 }

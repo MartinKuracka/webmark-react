@@ -15,15 +15,15 @@ const Form = ({setHidden='true', setMessage=''}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm('mkuracka_gmail', 'mkuracka_gmail', e.target, 'user_zFV7MpAUzro7F8g0odthS')
+        emailjs.sendForm('mkuracka_gmail', 'mkuracka_gmail', e.target, 'ser_zFV7MpAUzro7F8g0odthS')
         .then((result) => {
-            setMessage('Thanks! Your message has been sent, I will get in touch soon...')
+            setMessage(`${t('Sent')}`)
             setHidden(true);
             for(let i=0; i<3;i++) {
                 e.target[i].value = '';
             }
         }, (error) => {
-            setMessage('...Oops, could not send the message, please try again');
+            setMessage(`${t('Failed')}`);
             setHidden(true);
         });
 

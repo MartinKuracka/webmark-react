@@ -54,5 +54,7 @@
     "Name" : "Meno",
     "Message" : "Text správy",
     "Send" : "ODOSLAŤ",
-    "Lang" : "SK"
+    "Lang" : "SK",
+    "Sent" : "Ďakujem! Správa bola odoslaná, v blízkej dobe sa ti ozvem...",
+    "Failed" : "...Oops, niekde sa stala chyba, skús ešte raz"
 }
