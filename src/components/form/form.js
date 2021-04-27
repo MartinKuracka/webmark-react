@@ -15,7 +15,7 @@ const Form = ({setHidden='true', setMessage=''}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm('mkuracka_gmail', 'mkuracka_gmail', e.target, 'ser_zFV7MpAUzro7F8g0odthS')
+        emailjs.sendForm('mkuracka_gmail', 'mkuracka_gmail', e.target, 'user_zFV7MpAUzro7F8g0odthS')
         .then((result) => {
             setMessage(`${t('Sent')}`)
             setHidden(true);
