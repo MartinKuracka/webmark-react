@@ -26,7 +26,7 @@ i18n.use(initReactI18next)
     .init({
         initImmediate : false,
         resources,
-        lng: 'sk',
+        lng: lang,
 
         keyseparator: false,
 

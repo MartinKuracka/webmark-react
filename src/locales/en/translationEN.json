@@ -38,6 +38,22 @@
     "About" : "About",
     "Know_me" : "And now...  Get to know me",
     "Me_info" : "My name is Martin and I really appreciate You want to get to know me. I live in beautifull country in the heart of Europe - Slovakia. I lived in Spain, later in UK and now I am back here. I have travelled many places and met many people and cultures which had ultimately made me a better person. My motto is - no judgements, be respectfull, honest and always try Your best! When I make mistake, I learn from it and come out smarter. Life is a journey of constant learning and we should not be afraid to speak up or ask the right questions in order to get better. And that is what I do. I come from Electrical Engineering background and switched career to Web Development not long ago. I really enjoy creating meaningfull and eye catching designs, like to take on challenges and constanty work on my skills.",
-    "about_quote" : "I want to do things, learn, meet the right people and go forward together - not only at work but in life as well..."
+    "about_quote" : "I want to do things, learn, meet the right people and go forward together - not only at work but in life as well...",
+    "CoopBck" : "Coop",
+    "Initial" : "Initial consultation",
+    "InitialText" : "At the beginning of every project It is crucial to determine few key factors. We will get to know each other and discuss the purpose of the project or target audience amongst other things. At this stage we have to get a clear idea of what we are going to build and how we will do it.",
+    "Mockups" : "Mockups and prototypes",
+    "MockupsText" : "After clear definition of the project and tools we will use, we will get to preparing user flow diagrams, design mockups and later prototypes. At each of these stages we will make reviews and implement necessary changes based on additional requirements.",
+    "Project" : "Project realisation",
+    "Projecttext" : "Once the design has been agreed on and approved, the main realisation of the project can begin. I will start coding and bringing the idea to life using the best tools available for modern Web Design. As in the previous stages, periodic reviews will be conducted in order to track the progress and design compliance.",
+    "Putting" : "Putting it online",
+    "PuttingText" : "After succesfull build of the project we will make deep review and go through several UX tests together to make sure everything works as intended and project is ready to be released. After this step, there is one last thing to do - put it online and make Your website alive...",
+    "Kontakt" : "Contact",
+    "KontaktT1" : "Like what You see? Need more info?",
+    "Just" : "Just get in touch, we can make something great together...",
+    "Name" : "Name",
+    "Message" : "Your Message",
+    "Send" : "SEND",
+    "Lang" : "EN"
 
 }

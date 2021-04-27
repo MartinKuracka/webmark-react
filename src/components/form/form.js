@@ -1,7 +1,11 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
+// i18n tanslation
+import { useTranslation } from 'react-i18next';
 
 const Form = ({setHidden='true', setMessage=''}) => {    
+
+    const { t } = useTranslation();
     
     const [details, setDetails] = useState({
         name: '',
@@ -36,15 +40,15 @@ const Form = ({setHidden='true', setMessage=''}) => {
         <>
         <form className='w-full max-w-lg flex justify-center flex-col bg-primary2 p-3' type='submit' onSubmit={handleSubmit} onChange={handleChange}>
             <label className='flex flex-col my-3' htmlFor='name'>
-                <input className='w-11/12 h-10 mx-auto p-3' type='text' name='name' id='name' placeholder='Name'/>
+                <input className='w-11/12 h-10 mx-auto p-3' type='text' name='name' id='name' placeholder={`${t('Name')}`}/>
             </label>
             <label className='flex flex-col my-3' htmlFor='email'>
                 <input className='w-11/12 h-10 mx-auto p-3' type='email' name='email' id='email' placeholder='Email' required/>
             </label>
             <label className='flex flex-col my-3' htmlFor='textfield'>
-                <textarea className='w-11/12 h-32 mx-auto p-3' type='text' name='message' id='textfield' placeholder='Message text' required/>
+                <textarea className='w-11/12 h-32 mx-auto p-3' type='text' name='message' id='textfield' placeholder={`${t('Message')}`} required/>
             </label>
-            <button className='w-11/12 my-3 bg-primary h-10 text-secondary mx-auto ' type='submit'>Send</button>
+            <button className='w-11/12 my-3 bg-primary h-10 text-secondary mx-auto ' type='submit'>{t('Send')}</button>
         </form>        
         </>
 

@@ -2,10 +2,18 @@
 import Logo from '../../img/logo_SVG.svg';
 // i18n tanslation
 import { useTranslation } from 'react-i18next';
+// Images
+import Sk from '../../img/icon/sk.png';
+import En from '../../img/icon/uk.png';
 
 const DesktopNavbar = () => {
 
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+
+    const changeLanguage = (ln) => {
+        i18n.changeLanguage(ln);
+        localStorage.setItem('lang', ln);
+    }
 
     return(
         <>
@@ -16,23 +24,28 @@ const DesktopNavbar = () => {
                 </div>
                 <div className='flex'>
                     <label className='my-auto text-white '>
-                        <a className='text-xl  ' href='#home' >{t('home')}</a>
+                        <a className='text-xl' href='#home' >{t('home')}</a>
                     </label>
                     <label className='my-auto text-white ml-10'>
-                        <a className='text-xl  ' href='#intro' >{t('intro')}</a>
+                        <a className='text-xl' href='#intro' >{t('intro')}</a>
                     </label>
                     <label className='my-auto text-white ml-10'>
-                        <a className='text-xl  ' href='#works' >{t('works')}</a>
+                        <a className='text-xl' href='#works' >{t('works')}</a>
                     </label>
                     <label className='my-auto text-white ml-10'>
-                        <a className='text-xl  ' href='#about' >{t('about')}</a>
+                        <a className='text-xl' href='#about' >{t('about')}</a>
                     </label>
                     <label className='my-auto text-white ml-10'>
-                        <a className='text-xl  ' href='#coop' >{t('coop')}</a>
+                        <a className='text-xl' href='#coop' >{t('coop')}</a>
                     </label>
-                    <label className='my-auto text-white ml-10'>
-                        <a className='text-xl  ' href='#contact' >{t('cont')}</a>
+                    <label className='my-auto text-white mx-10'>
+                        <a className='text-xl' href='#contact' >{t('cont')}</a>
                     </label>
+                    <div className='flex h-full bg-primary2 w-48'>
+                        <b className='w-12 flex font-bold text-lg text-primary my-auto px-3'>{t('Lang')}</b>
+                        <img className='w-10 h-6 my-auto mx-3 cursor-pointer' src={En} alt='EN' name='En' onClick={() => changeLanguage('en')} />
+                        <img className='w-10 h-6 my-auto mx-3 cursor-pointer' src={Sk} alt='SK' name='Sk' onClick={() => changeLanguage('sk')} />
+                    </div>
                 </div>
             </div>
         </div>
