@@ -24,22 +24,22 @@ const DesktopNavbar = () => {
                 </div>
                 <div className='flex'>
                     <label className='my-auto text-white '>
-                        <a className='text-xl' href='#home' >{t('home')}</a>
+                        <a className='text-base' href='#home' >{t('home')}</a>
                     </label>
-                    <label className='my-auto text-white ml-10'>
-                        <a className='text-xl' href='#intro' >{t('intro')}</a>
+                    <label className='my-auto text-white ml-4'>
+                        <a className='text-base' href='#intro' >{t('intro')}</a>
                     </label>
-                    <label className='my-auto text-white ml-10'>
-                        <a className='text-xl' href='#works' >{t('works')}</a>
+                    <label className='my-auto text-white ml-4'>
+                        <a className='text-base' href='#works' >{t('works')}</a>
                     </label>
-                    <label className='my-auto text-white ml-10'>
-                        <a className='text-xl' href='#about' >{t('about')}</a>
+                    <label className='my-auto text-white ml-4'>
+                        <a className='text-base' href='#about' >{t('about')}</a>
                     </label>
-                    <label className='my-auto text-white ml-10'>
-                        <a className='text-xl' href='#coop' >{t('coop')}</a>
+                    <label className='my-auto text-white ml-4'>
+                        <a className='text-base' href='#coop' >{t('coop')}</a>
                     </label>
-                    <label className='my-auto text-white mx-10'>
-                        <a className='text-xl' href='#contact' >{t('cont')}</a>
+                    <label className='my-auto text-white mx-4'>
+                        <a className='text-base' href='#contact' >{t('cont')}</a>
                     </label>
                     <div className='flex h-full bg-primary2 w-48'>
                         <b className='w-12 flex font-bold text-lg text-primary my-auto px-3'>{t('Lang')}</b>
