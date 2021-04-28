@@ -17,9 +17,9 @@ const ContactSection = () => {
     const [infomessage,setMessage] = useState(`${t('KontaktT1')}`);
 
     return(
-        <div className='flex w-full min-h-full justify-center' id='contact'>
+        <div className='flex w-full min-h-full justify-center overflow-hidden' id='contact'>
             <div className='flex flex-col w-11/12 max-w-1024 mt-20'>
-                <h1 className='w-11/12 max-w-500 text-left overflow-hidden'
+                <h1 className='w-11/12 max-w-500 text-left'
                     data-aos="fade-up"
                     data-aos-duration="1000">{t('Kontakt')}</h1>
                 <div className='flex flex-col lg:flex-row'>

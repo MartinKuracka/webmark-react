@@ -13,12 +13,12 @@ const AboutSection = () => {
     const { t } = useTranslation();
 
     return(
-        <div className='flex w-full max-w-screen-lg min-h-screen justify-center' id='about'>
+        <div className='flex w-full max-w-screen-lg min-h-screen justify-center overflow-hidden' id='about'>
             <div className='w-11/12 max-w-1024 flex mt-20 flex-col'>
-                <h1 className='text-primary overflow-hidden'
-                    data-aos="fade-right"
+                <h1 className='text-primary'
+                    data-aos="fade-left"
                     data-aos-duration="1000">{t('About')}</h1>
-                <div className='w-full bg-secondary shadow-xl lg:p-10 overflow-hidden'
+                <div className='w-full bg-secondary shadow-xl lg:p-10'
                     data-aos="flip-down"
                     data-aos-delay='500'
                     data-aos-duration="1000">
