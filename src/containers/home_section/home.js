@@ -23,16 +23,16 @@ const HeadSection = () => {
                 {/* Home section */}
                 <div className='w-full min-h-screen flex flex-col lg:flex-row lg:justify-center'>
                     <div className='flex flex-col'>
-                        <h1 className='text-3xl font-light mt-24 lg:mt-36 lg:text-5xl z-10' 
+                        <h1 className='text-3xl font-light mt-24 lg:mt-36 lg:text-5xl z-10 overflow-hidden' 
                             data-aos="fade-up"
                             data-aos-duration="1000">
                             <span className='text-primary font-extrabold lg:text-9xl'>{t('W')}</span>{t('elcome')}</h1>
-                        <h1 className='text-5xl lg:-mt-9 lg:text-8xl'
+                        <h1 className='text-5xl lg:-mt-9 lg:text-8xl overflow-hidden'
                             data-aos="fade-up"
                             data-aos-delay='1000'
                             data-aos-duration="1000">
                             <span className='text-primary font-extrabold lg:text-9xl'>W</span>ebMark</h1>
-                        <img className='-mt-3 w-96 lg:w-full' 
+                        <img className='-mt-3 w-96 lg:w-full overflow-hidden' 
                             data-aos="fade-up"
                             data-aos-delay='2000'
                             data-aos-duration="1000" 
@@ -40,7 +40,7 @@ const HeadSection = () => {
                             alt={Webmark}/>
                     </div>
                     <div>
-                        <img className='mt-20 lg:mt-44' 
+                        <img className='mt-20 lg:mt-44 overflow-hidden' 
                             data-aos="fade-right"
                             data-aos-delay='3000'
                             data-aos-duration="1000" src={Hero} alt='hero' />
@@ -49,7 +49,7 @@ const HeadSection = () => {
                 {/* Intro section */}
                 <div className='w-full flex justify-center min-h-screen' id='intro'>
                     <div className='w-11/12 max-w-xl flex flex-col lg:flex-row lg:items-center lg:justify-center mx-auto'>
-                        <div className='pt-10 lg:w-1/2 lg:text-right mt-10'
+                        <div className='pt-10 lg:w-1/2 lg:text-right mt-10 overflow-hidden'
                             data-aos="fade-right"
                             data-aos-duration="1000">
                             <b className='text-white font-semibold lg:text-3xl text-xl'
@@ -58,7 +58,7 @@ const HeadSection = () => {
                             <b className='text-white font-semibold lg:text-3xl text-xl'>{t('Responsive')}</b>
                             <p className='mt-3 z-10 lg:text-xl'>{t('Design')}</p>
                         </div>
-                        <div className='lg:w-1/2'
+                        <div className='lg:w-1/2 overflow-hidden'
                             data-aos="fade-right"
                             data-aos-delay='500'
                             data-aos-duration="1000">

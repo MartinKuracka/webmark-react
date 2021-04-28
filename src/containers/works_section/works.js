@@ -41,7 +41,7 @@ const WorksSection = () => {
             <section className='flex w-11/12 max-w-screen-xl flex-col items-center mx-auto' id='works'>
                 <div className='flex w-full max-w-540 justify-center'>
                     <div className='flex w-full justify-start'>
-                        <h1 className='mt-20 text-background'
+                        <h1 className='mt-20 text-background overflow-hidden'
                             data-aos="fade-right"
                             data-aos-duration="1000">{t('Works')} </h1>
                     </div>
