@@ -14,9 +14,9 @@
     "Works" : "Works",
     "Website" : "Website projects",
     "projects" : "Full Website project that I have worked on since 2020",
-    "App" : "App projects",
+    "App" : "Components",
     "Different" : "Different types of page components that can be re-used in Web projects",
-    "templates" : "Demo templates",
+    "templates" : "Web Apps",
     "demo" : "Here You will find demo projects that showcase communications with API, databases, Password encryption, and more...",
     "Infinite" : "Infinite Scroll",
     "Infinitetext" : "This one scrolls and uploads images infinitely from Unsplash API",
@@ -37,7 +37,7 @@
     "Dog" : "Dog support charity sample form for contributions",
     "About" : "About",
     "Know_me" : "And now...  Get to know me",
-    "Me_info" : "My name is Martin and I really appreciate You want to get to know me. I live in a beautiful country in the heart of Europe - Slovakia. I lived in Spain, later in the UK and now I am back here. I have traveled many places and met many people and cultures which had ultimately made me a better person. My motto is - no judgments, be respectful, honest, and always try Your best! When I make mistake, I learn from it and come out smarter. Life is a journey of constant learning and we should not be afraid to speak up or ask the right questions in order to get better. And that is what I do. I come from an Electrical Engineering background and switched my career to Web Development not long ago. I really enjoy creating meaningful and eye-catching designs, like to take on challenges and constantly work on my skills.",
+    "Me_info" : "My name is Martin and I really appreciate You want to get to know me. I live in a beautiful country in the heart of Europe - Slovakia. I lived in Spain, later in the UK and now I am back here. I have traveled many places and met many people and cultures which had ultimately made me a better person. My motto is - no judgments, be respectful, honest, and always try Your best! When I make mistake, I learn from it and come out smarter. Life is a journey of constant learning and we should not be afraid to speak up or ask the right questions in order to get better. And that is what I do. I come from an Industry 4.0 background and switched my career to Web Development not long ago. I really enjoy creating meaningful and eye-catching designs, like to take on challenges, and constantly work on my skills.",
     "about_quote" : "I want to do things, learn, meet the right people and go forward together - not only at work but in life as well...",
     "CoopBck" : "Coop",
     "Initial" : "Initial consultation",
@@ -56,5 +56,7 @@
     "Send" : "SEND",
     "Lang" : "EN",
     "Sent" : "Thanks! Your message has been sent, I will get in touch soon...",
-    "Failed" : "...Oops, could not send the message, please try again"
+    "Failed" : "...Oops, could not send the message, please try again",
+    "EnTitle" : "English",
+    "SkTitle" : "Slovak"
 }

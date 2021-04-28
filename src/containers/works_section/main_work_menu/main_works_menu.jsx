@@ -50,7 +50,7 @@ const MainWorksMenu = () => {
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img className='mx-auto' src={Slide1} alt='slide' />
                     <div className='flex flex-col'>
-                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='webs' onClick={handleOnclick}>{t('Website')}</h2>
+                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='websites' onClick={handleOnclick}>{t('Website')}</h2>
                         <p className='text-primary lg:text-xl lg:mx-3'>{t('projects')}</p>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ const MainWorksMenu = () => {
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img className='mx-auto' src={Slide2} alt='slide' />
                     <div className='flex flex-col  mx-auto'>
-                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='components'onClick={handleOnclick}>{t('App')}</h2>
+                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='Components'onClick={handleOnclick}>{t('App')}</h2>
                         <p className='text-primary lg:text-xl lg:mx-3'>{t('Different')}</p>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ const MainWorksMenu = () => {
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img className='mx-auto' src={Slide3} alt='slide' />
                     <div className='flex flex-col  mx-auto'>
-                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='templates' onClick={handleOnclick}>{t('templates')}</h2>
+                        <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='Web Apps' onClick={handleOnclick}>{t('templates')}</h2>
                         <p className='text-primary lg:text-xl lg:mx-3'>{t('demo')}</p>
                     </div>
                 </div>

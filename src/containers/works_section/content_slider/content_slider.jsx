@@ -12,11 +12,11 @@ const ContentSlider = () => {
 
     const SelectedContent = () => {
         switch (contenttype) {
-            case 'webs':
+            case 'websites':
                 return <Webs />;
-            case 'components': 
+            case 'Components': 
                 return <Components />;
-            case 'templates':
+            case 'Web Apps':
                 return <Templates />;
             default:
                 return null

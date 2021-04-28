@@ -12,7 +12,7 @@ import Quotes from '../../../../img/App components/quotes.jpg';
 import {Button} from '../../../../components/styled_components';
 // Context API
 import { WorksContext } from '../../../../works_context/works_context';
-import { useContext } from 'react';
+import { useContext, useState, useEffect } from 'react';
 // i18n tanslation
 import { useTranslation } from 'react-i18next';
 
@@ -21,6 +21,7 @@ const Components = () => {
     const { t } = useTranslation();
 
     const {setContent} = useContext(WorksContext);
+    const [arrowState, setArrows] = useState(false);
 
     var settings = {
         dots: true,
@@ -31,12 +32,17 @@ const Components = () => {
         centerMode: true,
         autoplay: true,
         arrows: false,
-        className: 'm-5 w-full',
         centerPadding: '0px',
     };
 
+    useEffect(() => {
+        if (window.innerWidth < 1024) {
+            setArrows(false);
+        } else setArrows(true);
+    }, []);
+
     return (
-        <Slider {...settings} className=''>
+        <Slider {...settings} arrows={arrowState}>
             {/* Slide 1 */}
             <div className='p-5 h-full'>
                 <div className='flex flex-col lg:flex-row w-full'>

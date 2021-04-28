@@ -30,6 +30,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('./img/background_whole.svg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-color: var(--background);
 }
 

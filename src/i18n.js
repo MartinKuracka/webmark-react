@@ -16,8 +16,8 @@ const resources = {
 let lang;
 const storedLang = localStorage.getItem('lang');
 if (!storedLang) {
-    localStorage.setItem('lang', 'sk');
-    lang = 'sk';
+    localStorage.setItem('lang', 'en');
+    lang = 'en';
 } else {
     lang = storedLang;
 }

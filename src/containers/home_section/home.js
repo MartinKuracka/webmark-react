@@ -2,7 +2,6 @@
 import Webmark from '../../img/Web Design.svg';
 import Hero from '../../img/hdr_image.svg';
 import Experience from '../../img/undraw_escaping_my1b.svg';
-import Responsive from '../../img/undraw_progressive_app_m9ms.svg';
 // Css
 import './home.css';
 // i18n translations

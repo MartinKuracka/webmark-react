@@ -14,9 +14,9 @@
     "Works" : "Projekty",
     "Website" : "Webové stránky",
     "projects" : "Projekty kompletných Web stránok od roku 2020",
-    "App" : "Aplikácie",
+    "App" : "Komponenty",
     "Different" : "Výber komponentov, ktoré môžu byť použité na Webe",
-    "templates" : "Šablóny",
+    "templates" : "Webové aplikácie",
     "demo" : "Ukážkové aplikácie použitia API, komunikácia so serverom atď...",
     "Infinite" : "Nekonečné skrolovanie",
     "Infinitetext" : "Funkcionalita nekonečného skrolovania stránky - Unsplash API",
@@ -56,5 +56,7 @@
     "Send" : "ODOSLAŤ",
     "Lang" : "SK",
     "Sent" : "Ďakujem! Správa bola odoslaná, v blízkej dobe sa ti ozvem...",
-    "Failed" : "...Oops, niekde sa stala chyba, skús ešte raz"
+    "Failed" : "...Oops, niekde sa stala chyba, skús ešte raz",
+    "EnTitle" : "Anglicky",
+    "SkTitle" : "Slovensky"
 }
