@@ -59,7 +59,7 @@ const HeadSection = () => {
                             <p className='mt-3 z-10 lg:text-xl'>{t('Design')}</p>
                         </div>
                         <div className='lg:w-1/2'
-                            data-aos="fade-left"
+                            data-aos="fade-right"
                             data-aos-delay='500'
                             data-aos-duration="1000">
                             <div className='flex justify-end lg:p-10 mt-20'>

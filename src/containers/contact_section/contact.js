@@ -20,7 +20,7 @@ const ContactSection = () => {
         <div className='flex w-full min-h-full justify-center' id='contact'>
             <div className='flex flex-col w-11/12 max-w-1024 mt-20'>
                 <h1 className='w-11/12 max-w-500 text-left'
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-duration="1000">{t('Kontakt')}</h1>
                 <div className='flex flex-col lg:flex-row'>
                     <div className='flex w-full justify-around flex-col max-w-lg text-right p-3 bg-secondary'
