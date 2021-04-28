@@ -8,8 +8,13 @@ import { WorksContext } from '../../works_context/works_context';
 import './works.css';
 // i18n tanslation
 import { useTranslation } from 'react-i18next';
+// AOS animation
+import AOS from 'aos';
+import '../../../node_modules/aos/dist/aos.css';
 
 const WorksSection = () => {
+
+    AOS.init();
 
     const { t } = useTranslation();
 
@@ -36,7 +41,9 @@ const WorksSection = () => {
             <section className='flex w-11/12 max-w-screen-xl flex-col items-center mx-auto' id='works'>
                 <div className='flex w-full max-w-540 justify-center'>
                     <div className='flex w-full justify-start'>
-                        <h1 className='mt-20 text-background'>{t('Works')} </h1>
+                        <h1 className='mt-20 text-background'
+                            data-aos="fade-right"
+                            data-aos-duration="1000">{t('Works')} </h1>
                     </div>
                 </div>
                 <div className='w-full bg-background shadow-xl max-w-540 lg:max-w-1024'>

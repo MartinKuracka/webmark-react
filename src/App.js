@@ -9,6 +9,9 @@ import ContactSection from  './containers/contact_section/contact';
 import Footer from './containers/footer/footer';
 // i18next translation
 import './i18n'
+// AOS animation
+import AOS from 'aos';
+import '../node_modules/aos/dist/aos.css';
 
 
 function App() {
