@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/webmark-react/static/css/main.2068ebdb.chunk.css",
-    "main.js": "/webmark-react/static/js/main.11625966.chunk.js",
-    "main.js.map": "/webmark-react/static/js/main.11625966.chunk.js.map",
+    "main.js": "/webmark-react/static/js/main.bbf9d483.chunk.js",
+    "main.js.map": "/webmark-react/static/js/main.bbf9d483.chunk.js.map",
     "runtime-main.js": "/webmark-react/static/js/runtime-main.28dd4e0f.js",
     "runtime-main.js.map": "/webmark-react/static/js/runtime-main.28dd4e0f.js.map",
     "static/css/2.42ec6965.chunk.css": "/webmark-react/static/css/2.42ec6965.chunk.css",
@@ -34,6 +34,7 @@
     "static/media/slick-theme.css": "/webmark-react/static/media/slick.c94f7671.ttf",
     "static/media/srdcofka.156d7c8d.jpg": "/webmark-react/static/media/srdcofka.156d7c8d.jpg",
     "static/media/undraw_escaping_my1b.0358459a.svg": "/webmark-react/static/media/undraw_escaping_my1b.0358459a.svg",
+    "static/media/webmark.b4760f12.jpg": "/webmark-react/static/media/webmark.b4760f12.jpg",
     "static/media/works.css": "/webmark-react/static/media/works-blob2.ca65409a.svg"
   },
   "entrypoints": [
@@ -41,6 +42,6 @@
     "static/css/2.42ec6965.chunk.css",
     "static/js/2.e762c3fb.chunk.js",
     "static/css/main.2068ebdb.chunk.css",
-    "static/js/main.11625966.chunk.js"
+    "static/js/main.bbf9d483.chunk.js"
   ]
 }
