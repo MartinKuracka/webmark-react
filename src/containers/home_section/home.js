@@ -19,10 +19,10 @@ const HeadSection = () => {
     return(
         <>
         <section className='flex w-full flex-col bg-headerImg lg:items-center image overflow-hidden' id='home'>
-            <div className='w-11/12 flex flex-col max-w-screen-lg mx-auto items-center'>
+            <div className='w-11/12 flex flex-col max-w-xl mx-auto items-center'>
                 {/* Home section */}
                 <div className='w-full min-h-screen flex flex-col lg:flex-row lg:justify-center'>
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col lg:w-1/2'>
                         <h1 className='text-3xl font-light mt-24 lg:mt-36 lg:text-5xl z-10' 
                             data-aos="fade-up"
                             data-aos-duration="1000">
@@ -39,8 +39,8 @@ const HeadSection = () => {
                             src={Webmark} 
                             alt={Webmark}/>
                     </div>
-                    <div>
-                        <img className='mt-20 lg:mt-44' 
+                    <div className='lg:w-1/2'>
+                        <img className='mt-20 lg:mt-44 max-w-540' 
                             data-aos="fade-right"
                             data-aos-delay='3000'
                             data-aos-duration="1000" src={Hero} alt='hero' />

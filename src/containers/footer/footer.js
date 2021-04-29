@@ -5,10 +5,10 @@ const Footer = () => {
     return(
         <div className='flex flex-col w-full items-center justify-center h-56 bg-white mt-20'>
             <div className='flex my-5'>
-                <a clasName='pointer' href='https://github.com/MartinKuracka' target='_blank' rel="noreferrer">
+                <a className='pointer' href='https://github.com/MartinKuracka' target='_blank' rel="noreferrer">
                     <img className='w-8 mx-3' src={Github} alt='git' />
                 </a>
-                <a clasName='pointer' href='https://www.linkedin.com/in/martin-kuracka-72b8a91b0/' target='_blank' rel="noreferrer">
+                <a className='pointer' href='https://www.linkedin.com/in/martin-kuracka-72b8a91b0/' target='_blank' rel="noreferrer">
                     <img className='w-8 mx-3' src={LinkedIn} alt='linkedIn' />
                 </a>
             </div>
