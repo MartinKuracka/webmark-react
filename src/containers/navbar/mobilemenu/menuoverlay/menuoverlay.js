@@ -17,38 +17,38 @@ const MenuOverlay = ({handleMenu}) => {
     return(
         <div className='fixed w-full h-screen bg-gray-300 flex  justify-center bg-opacity-50 animateHome'>
             <ul className='w-full h-full'>
-                <li className='flex h-20 w-full justify-center bg-primary2 w-48'>
+                <li className='flex h-20 w-full justify-center bg-gradient-to-b from-green-900 to-green-200 w-48'>
                     <b className='w-12 flex font-bold text-lg text-primary my-auto px-3'>{t('Lang')}</b>
                     <img className='w-16 h-8 my-auto mx-3 cursor-pointer' src={En} alt='EN' name='En' onClick={() => changeLanguage('en')} />
                     <img className='w-16 h-8 my-auto mx-3 cursor-pointer' src={Sk} alt='SK' name='Sk' onClick={() => changeLanguage('sk')} />
                 </li>
                 <div className='h-5/6'>
-                    <label  for='home'>
+                    <label  htmlFor='home'>
                         <a className='text-xl ' href='#home' onClick={() => handleMenu()}>
                             <li className='h-1/6 bg-green-400 w-full flex justify-center items-center '>{t('home')}</li>
                         </a>
                     </label>
-                    <label for='intro'>
+                    <label htmlFor='intro'>
                         <a className='text-xl animateIntro' href='#intro' onClick={() => handleMenu()}>
                             <li className='h-1/6 bg-green-500 w-full flex justify-center items-center'>{t('intro')}</li>
                         </a>
                     </label>
-                    <label for='works'>
+                    <label htmlFor='works'>
                         <a className='text-xl' href='#works' onClick={() => handleMenu()}>
                             <li className='h-1/6 bg-green-600 w-full flex justify-center items-center'>{t('works')}</li>
                         </a>
                     </label>
-                    <label for='about'>
+                    <label htmlFor='about'>
                         <a className='text-xl' href='#about' onClick={() => handleMenu()}>
                             <li className='h-1/6 bg-green-700 w-full flex justify-center items-center'>{t('about')}</li>
                         </a>
                     </label>
-                    <label for='coop'>
+                    <label htmlFor='coop'>
                         <a className='text-xl' href='#coop' onClick={() => handleMenu()}>
                             <li className='h-1/6 bg-green-800 w-full flex justify-center items-center'>{t('coop')}</li>
                         </a>
                     </label>
-                    <label for='contact'>
+                    <label htmlFor='contact'>
                         <a className='text-xl' href='#contact' onClick={() => handleMenu()}>
                             <li className='h-1/6 bg-green-900 w-full flex justify-center items-center'>{t('cont')}</li>
                         </a>
