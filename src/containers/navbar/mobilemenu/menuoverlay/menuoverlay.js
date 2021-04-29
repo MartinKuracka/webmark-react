@@ -17,7 +17,7 @@ const MenuOverlay = ({handleMenu}) => {
     return(
         <div className='fixed w-full h-screen bg-gray-300 flex  justify-center bg-opacity-50 animateHome'>
             <ul className='w-full h-full'>
-                <li className='flex h-20 w-full justify-center bg-gradient-to-b from-green-900 to-green-200 w-48'>
+                <li className='flex h-20 w-full justify-center bg-gradient-to-t from-green-400 to-green-900 w-48'>
                     <b className='w-12 flex font-bold text-lg text-primary my-auto px-3'>{t('Lang')}</b>
                     <img className='w-16 h-8 my-auto mx-3 cursor-pointer' src={En} alt='EN' name='En' onClick={() => changeLanguage('en')} />
                     <img className='w-16 h-8 my-auto mx-3 cursor-pointer' src={Sk} alt='SK' name='Sk' onClick={() => changeLanguage('sk')} />
