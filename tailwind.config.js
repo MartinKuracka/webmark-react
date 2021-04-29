@@ -7,7 +7,6 @@ module.exports = {
         ...theme('colors'),
         'primary': '#464F41',
         'primary2': '#BFCBA8',
-        'gradient' : 'linear-gradient(0deg, rgba(70,79,65,1) 0%, rgba(191,203,168,1) 100%)',
         'secondary': '#ffffff',
         'danger': '#e3342f',
         'background': '#EEEDED',

@@ -58,5 +58,9 @@
     "Sent" : "Thanks! Your message has been sent, I will get in touch soon...",
     "Failed" : "...Oops, could not send the message, please try again",
     "EnTitle" : "English",
-    "SkTitle" : "Slovak"
+    "SkTitle" : "Slovak",
+    "portfolio" : "Webmark portfolio",
+    "portfolioName"  : "My own portfolio page",
+    "srdcofkaText" : "Local helathy food store page",
+    "Luna" : "Single page website to promote a product"
 }

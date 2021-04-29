@@ -58,5 +58,9 @@
     "Sent" : "Ďakujem! Správa bola odoslaná, v blízkej dobe sa ti ozvem...",
     "Failed" : "...Oops, niekde sa stala chyba, skús ešte raz",
     "EnTitle" : "Anglicky",
-    "SkTitle" : "Slovensky"
+    "SkTitle" : "Slovensky",    
+    "portfolio" : "Webmark portfólio",
+    "portfolioName"  : "Moje vlastné portfólio",
+    "srdcofkaText" : "Lokálny obchod so zdravými potravinami",
+    "Luna" : "Promo stránka pre produkt "
 }
