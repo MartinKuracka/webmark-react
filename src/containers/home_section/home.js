@@ -40,7 +40,7 @@ const HeadSection = () => {
                             alt={Webmark}/>
                     </div>
                     <div className='lg:w-1/2'>
-                        <img className='mt-20 lg:mt-44 max-w-540' 
+                        <img className='mt-20 lg:mt-44 w-full max-w-540' 
                             data-aos="fade-right"
                             data-aos-delay='3000'
                             data-aos-duration="1000" src={Hero} alt='hero' />
@@ -65,7 +65,7 @@ const HeadSection = () => {
                             <div className='flex justify-end lg:p-10 mt-20'>
                                 <span className='absolute font-extrabold italic text-primary mr-36 -mt-16 text-8xl'>X</span>
                                 <span className='absolute font-semibold text-4xl tracking-tighter -mt-4 italic text-white'>perience</span>
-                                <img className='mt-5' src={Experience} alt='experence' />
+                                <img className='mt-5 w-full max-w-540' src={Experience} alt='experence' />
                             </div>
                         </div>
                     </div>
