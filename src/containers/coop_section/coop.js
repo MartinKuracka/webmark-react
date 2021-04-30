@@ -18,7 +18,7 @@ const CoopSection = () => {
             <div className='flex flex-col min-h-screen w-full justify-center items-center my-20'>
                 <h1 className='w-11/12 max-w-screen-xl text-right text-primary z-10 mr-10'
                     data-aos="fade-right"
-                    data-aos-duration="1000">{t('CoopBck')}</h1>
+                    data-aos-duration="1000">Co-op</h1>
                 <div className='flex justify-center bg-white overflow-hidden'>
                 <div className='flex justify-center flex-col w-full max-w-screen-xl md:flex-row lg:w-9/12'>
                     {/* First item */}
