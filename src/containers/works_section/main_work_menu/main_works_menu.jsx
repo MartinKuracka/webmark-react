@@ -51,12 +51,12 @@ const MainWorksMenu = () => {
             <div className='p-5'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img className='mx-auto' src={Slide1} alt='slide' />
-                    <div className='flex flex-col justify-between'>
+                    <div className='flex flex-col justify-between h-48 lg:h-auto'>
                         <div className='flex flex-col'>
                             <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='websites' onClick={handleOnclick}>{t('Website')}</h2>
                             <p className='text-primary lg:text-xl lg:mx-3'>{t('projects')}</p>
                         </div>                      
-                        <Button className='self-end' title='websites' onClick={handleOnclick}>{t('ENTER')}</Button>
+                        <Button className='self-end bottom-0' title='websites' onClick={handleOnclick}>{t('ENTER')}</Button>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ const MainWorksMenu = () => {
             <div className='p-5'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img className='mx-auto' src={Slide2} alt='slide' />
-                    <div className='flex flex-col justify-between'>
+                    <div className='flex flex-col justify-between h-48 lg:h-auto'>
                         <div className='flex flex-col'>
                             <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='Components'onClick={handleOnclick}>{t('App')}</h2>
                             <p className='text-primary lg:text-xl lg:mx-3'>{t('Different')}</p>
@@ -77,7 +77,7 @@ const MainWorksMenu = () => {
             <div className='p-5'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img className='mx-auto' src={Slide3} alt='slide' />
-                    <div className='flex flex-col justify-between'>
+                    <div className='flex flex-col justify-between h-48 lg:h-auto'>
                         <div className='flex flex-col'>
                             <h2 className='text-primary lg:text-2xl underline font-bold my-3 lg:mx-3 lg:mt-0 cursor-pointer' title='Web Apps' onClick={handleOnclick}>{t('templates')}</h2>
                             <p className='text-primary lg:text-xl lg:mx-3'>{t('demo')}</p>

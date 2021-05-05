@@ -45,7 +45,7 @@ const Webs = () => {
             <div className='p-5 h-full'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img src={Srdcofka} alt='srdcofka'/>
-                    <div className='w-full lg:ml-3 flex flex-col justify-between max-w-500 '>
+                    <div className='w-full lg:ml-3 flex flex-col justify-between max-w-500 h-52 lg:h-auto'>
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-2xl font-bold mt-3 lg:mt-0' title='srdcofka' href='https://www.srdcofka.sk' target='_blank' rel="noreferrer" >Srdcofka.sk</h2>
                             <p className='text-primary text-sm lg:text-base'>{t('srdcofkaText')} </p>
@@ -65,7 +65,7 @@ const Webs = () => {
             <div className='p-5 h-full'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img src={Luna} alt='luna' />
-                    <div className='w-full lg:ml-3 flex flex-col justify-between max-w-500'>
+                    <div className='w-full lg:ml-3 flex flex-col justify-between max-w-500 h-52 lg:h-auto'>
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-2xl font-bold mt-3 lg:mt-0' title='srdcofka' href='https://www.srdcofka.sk' target='_blank' rel="noreferrer" >Svieckaluna.sk</h2>
                             <p className='text-primary text-sm lg:text-base'>{t('Luna')}</p>
@@ -85,7 +85,7 @@ const Webs = () => {
             <div className='p-5 h-full'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img src={Webmark} alt='luna' />
-                    <div className='w-full lg:ml-3 flex flex-col justify-between max-w-500'>
+                    <div className='w-full lg:ml-3 flex flex-col justify-between max-w-500 h-52 lg:h-auto'>
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-2xl font-bold mt-3 lg:mt-0' title='srdcofka' href='https://www.srdcofka.sk' target='_blank' rel="noreferrer" >{t('portfolio')}</h2>
                             <p className='text-primary text-sm lg:text-base'>{t('portfolioName')}</p>

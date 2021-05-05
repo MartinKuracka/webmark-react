@@ -47,7 +47,7 @@ const Components = () => {
             <div className='p-5 h-full'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img src={Scroll} alt='srdcofka'/>
-                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
+                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500 h-52 lg:h-auto'>
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' title='srdcofka' target='_blank' rel="noreferrer" >{t('Infinite')}</h2>
                             <p className='text-primary text-sm lg:text-base'>{t('Infinitetext')}</p>
@@ -67,7 +67,7 @@ const Components = () => {
             <div className='p-5'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img src={Dark} alt='luna' />
-                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
+                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500 h-52 lg:h-auto'>
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' title='srdcofka' target='_blank' rel="noreferrer" >{t('Light')}</h2>
                             <p className='text-primary text-sm lg:text-base'>{t('Switching')}</p>
@@ -87,7 +87,7 @@ const Components = () => {
             <div className='p-5'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img src={Menu} alt='luna' />
-                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
+                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500 h-52 lg:h-auto'>
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' target='_blank' rel="noreferrer" >{t('Animated')}</h2>
                             <p className='text-primary text-sm lg:text-base'>{t('Modern')}</p>
@@ -107,7 +107,7 @@ const Components = () => {
             <div className='p-5'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img src={Picture} alt='luna' />
-                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
+                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500 h-52 lg:h-auto'>
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' target='_blank' rel="noreferrer" >{t('Picture')}</h2>
                             <p className='text-primary text-sm lg:text-base'>{t('Pop-up')}</p>
@@ -127,7 +127,7 @@ const Components = () => {
             <div className='p-5'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img src={Quotes} alt='luna' />
-                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
+                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500 h-52 lg:h-auto'>
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-xl font-bold mt-3 lg:mt-0' target='_blank' rel="noreferrer" >{t('Quotes')}</h2>
                             <p className='text-primary text-sm lg:text-base'>{t('QuoteDay')}</p>

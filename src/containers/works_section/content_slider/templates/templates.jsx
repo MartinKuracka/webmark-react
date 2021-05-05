@@ -29,7 +29,7 @@ const Templates = () => {
         slidesToScroll: 1,
         centerMode: true,
         autoplay: true,
-        arrows: false,
+        arrows: true,
         centerPadding: '0px',
     };
 
@@ -45,7 +45,7 @@ const Templates = () => {
             <div className='p-5 h-full'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img src={Face} alt='srdcofka'/>
-                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
+                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500 h-56 lg:h-auto'>
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-2xl font-bold mt-3 lg:mt-0'  title='srdcofka' target='_blank' rel="noreferrer" >{t('Face')}</h2>
                             <p className='text-primary text-sm lg:text-base'>{t('Full')}</p>
@@ -65,7 +65,7 @@ const Templates = () => {
             <div className='p-5 h-full'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img src={Goodboy} alt='luna' />
-                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
+                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500 h-56 lg:h-auto'>
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-2xl font-bold mt-3 lg:mt-0' title='srdcofka' target='_blank' rel="noreferrer" >GoodBoy</h2>
                             <p className='text-primary text-sm lg:text-base'>{t('Dog')}</p>
@@ -85,7 +85,7 @@ const Templates = () => {
             <div className='p-5 h-full'>
                 <div className='flex flex-col lg:flex-row w-full'>
                     <img src={Anime} alt='luna' />
-                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500'>
+                    <div className='w-full lg:mx-3 flex flex-col justify-between max-w-500 h-56 lg:h-auto'>
                         <div className='flex flex-col '>
                             <h2 className='text-primary lg:text-2xl font-bold mt-3 lg:mt-0' target='_blank' rel="noreferrer" >{t('Animations')}</h2>
                             <p className='text-primary text-sm lg:text-base'>{t('Modern2')}</p>
